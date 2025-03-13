@@ -1,0 +1,218 @@
+---
+title: Projects with links to planetary boundaries framework
+author: John Sundh
+format:
+    html:
+        toc: true
+        toc-depth: 4
+bibliography: assets/bibliography.bib
+---
+
+# Peer-review
+
+## 2024-10
+
+### Developing a deep learning approach to fully integrate contextual information from remote sensing for species distribution modeling
+
+- NBIS Project ID: T_Andermann_WABI241010
+- PI First Name: Tobias
+- PI Family Name: Andermann
+- PI position: Assistant Professor, DDLS fellow
+- University: Uppsala University
+- Email: [tobias.andermann@ebc.uu.se](tobias.andermann@ebc.uu.se)
+- Webpage: [biodiversity.se](https://biodiversity.se)
+- NBIS support staff: Miguel A. Redondo, Marcin Kierczak, Jonas Windhager and Lucile Soler 
+- Status: In Progress
+
+#### Description
+
+The spatial mapping of **biodiversity** has become more important than ever, due to
+ambitious biodiversity conservation goals set in place through international
+bodies such as the UN (link), set in motion by the collective awareness about
+our current global biodiversity crisis.
+
+#### Expected outcome
+
+A pipeline for very spatially explicit modeling of species distributions with
+the potential to be useful for decision-makers on small spatial scales and
+administrative units, due to the spatial resolution and potential precision of
+these models.
+
+
+### Understanding abundance patterns in Amazonia
+
+- NBIS Project ID: C_Bacon_2410
+- PI First Name: Christine
+- PI Family Name: Bacon
+- PI position: Senior Lecturer in Biodiversity
+- University: University of Gothenburg
+- Email: [christine.bacon@bioenv.gu.se](mailto:christine.bacon@bioenv.gu.se)
+- Status: In Progress
+
+#### Description
+
+What factors control diversity in Amazonia? Amazonia provides society with a
+multitude of ecosystem services, but we do not yet understand diversity patterns
+in the most diverse forest on Earth. One pattern of fundamental importance is
+that of hyperdominance. Hyperdominant species are those that are more abundant
+than expected at random, and the pattern is found in ca. 200 tree species. We
+aim to understand why certain tree species are so abundant.
+
+#### Expected outcome
+
+By assembling the first chromosome-level genome for this species, we aim to
+unravel the functional diversity of genes associated with response to
+environment change. A reference genome is also fundamental to inferring
+demography and its interaction with habitat change that would affect food
+security in the most biodiverse tropical forest on Earth.
+
+## 2022-10
+
+### The Global Environmental Antibiotic Resistance Atlas
+
+## 2022-05
+
+### Biodiversity of the Central Arctic Ocean analyzed by metagenomic eDNA
+
+## 2021-10
+
+### Insect Biome Atlas
+
+## 2021-05
+
+### Genetic resources for extreme weather resilience
+
+- NBIS Project ID: J_Hagenblad_2105
+
+## 2020-10
+
+### Massive and parallel single-cell sequencing of eukaryotic plankton
+
+- NBIS Project ID: A_Andersson_2010
+
+## 2020-02
+
+###  Genome-wide transcriptome analysis of the response to mechanical stimulation in cereals
+
+- NBIS Project ID: O_van_Aken_2001
+
+## 2019-10
+
+### The molecular basis of recombination rate variation in butterflies
+
+- NBIS Project ID: N_Backstrom_1910
+
+## 2019-01
+
+### Evolutionary genomics of Darwin’s finches
+
+- NBIS Project ID: L_Andersson_1902
+
+## 2018-10
+
+### Environmental genomics in the Northern krill
+
+- NBIS Project ID: A_Wallberg_1810
+- PI First Name: Andreas
+- PI Family Name: Wallberg
+- PI position: Researcher at the Department of Medical Biochemistry and Microbiology
+- University: Uppsala University
+- Email: [andreas.wallberg@imbim.uu.se](mailto:andreas.wallberg@imbim.uu.se)
+- NBIS support staff: Per Unneberg
+- Status: In Progress
+
+#### Description
+
+Krill, particularly Antarctic and Northern species, are among the most abundant
+animals, playing a vital role in marine ecosystems as they link primary
+production to higher trophic levels. Rapid climate change threatens their
+distribution and abundance, with potential impacts on their predators and
+dependent fisheries. To understand krill adaptation, we aim to analyze the
+Northern krill's genome, which spans ~18.6 Gbp and is distributed across various
+temperatures, from the warm Mediterranean to the cold Arctic. This research will
+reveal genetic adaptations to diverse environments, aiding predictions for
+species' responses to environmental changes.
+
+#### Publications
+
+##### Ecological genomics in the Northern krill uncovers loci for local adaptation across ocean basins
+
+@unneberg2024ecological
+
+- Impact of Climate Change on Marine Species: The study highlights that climate
+change is forcing species, including krill, to adapt or migrate. This is crucial
+as krill are a key component of marine ecosystems, serving as a primary food
+source for many marine animals. The ongoing changes in temperature and ocean
+conditions can disrupt these food webs, leading to biodiversity loss.
+
+- Genetic Adaptation and Resilience: The research indicates that Northern krill
+exhibit genetic adaptations that may help them survive in varying thermal
+environments. Understanding these adaptations is vital for predicting how
+species will cope with climate change. The ability of krill to adapt genetically
+could influence their survival and, consequently, the health of marine
+ecosystems.
+
+- Monitoring Biodiversity: The identification of genetic markers associated with
+adaptive variation in krill can be used to monitor other marine species. This
+monitoring is essential for forecasting future distributions of krill and
+assessing the risks to species that depend on them. Such insights can help in
+managing biodiversity and mitigating the impacts of climate change on marine
+life.
+
+- Polygenic Adaptation: The study found signatures of adaptive divergence across
+hundreds of genes related to critical functions such as reproduction and thermal
+tolerance. This polygenic adaptation suggests that multiple genes contribute to
+how krill respond to environmental changes, which is important for understanding
+resilience in the face of climate change.
+
+- Ecosystem Services and Food Security: As krill are integral to marine food
+webs, their adaptation and survival are directly linked to the health of marine
+ecosystems and the services they provide, including food security for human
+populations. The decline of krill populations due to climate change could have
+cascading effects on marine biodiversity and fisheries.
+
+## 2018-05
+
+### Genomic dynamics over space and time in salmonid metapopulations
+
+- NBIS Project ID: L_Laikre_1805
+
+## 2018-02
+
+### Functional insights into the impacts of nitrogen fertilisation on forest belowground fungal metacommunities.
+
+- NBIS Project ID: N_Street_1801
+
+## 2017-10
+
+### Genome-wide consequences of population declines in endangered species
+
+- NBIS Project ID: L_Dalen_1709
+
+## 2017-02
+
+### Shining a Light into the Dark – Novel lineages and biological systems in the deep biosphere
+
+- NBIS Project ID: M_Dopson_1701
+
+### Symbiont-induced Host Speciation in Insects
+
+- NBIS Project ID: L_Klasson_1701
+
+
+
+
+
+# User-fee
+
+## 2021-10
+
+### Support \#6005 - B1 Ocean
+
+#### Publications
+
+##### New chemical and microbial perspectives on vitamin B1 and vitamer dynamics of a coastal system
+
+
+
+# Bibliography
