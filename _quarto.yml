@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - about.qmd
+
+website:
+  title: "Systems thinking"
+  navbar:
+    logo: assets/logos/nbislogo-green.svg
+    favicon: assets/logos/nbislogo-green.svg
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  page-footer:
+    border: false
+    left: "2025 [NBIS](https://nbis.se) | [GPL-3 License](https://choosealicense.com/licenses/gpl-3.0/)"
+    right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
+
+
+format:
+  nbis-course-html:
+    toc: true
+    embed-resources: false
+    date: last-modified
+    date-format: "DD-MMM-YYYY"
+    code-link: true
+    code-block-border-left: "#a7c947"
+    lightbox:
+      match: auto
+
+from: markdown+emoji
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+
+extensions:
+  - nbis-course
+  - fontawesome
