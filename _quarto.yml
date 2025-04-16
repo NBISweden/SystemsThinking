@@ -4,6 +4,9 @@ project:
   render:
     - index.qmd
     - about.qmd
+    - events.qmd
+    - events/ystad2025/intro.qmd
+    - events/ystad2025/menti.qmd
 
 website:
   title: "Systems thinking"
@@ -14,11 +17,18 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - text: Events
+        href: events.qmd
   page-footer:
     border: false
     left: "2025 [NBIS](https://nbis.se) | [GPL-3 License](https://choosealicense.com/licenses/gpl-3.0/)"
     right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
 
+
+institute: NBIS
+bibliography: assets/bibliography.bib
+csl: assets/presentation.csl
+from: markdown+emoji
 
 format:
   nbis-course-html:
@@ -30,9 +40,42 @@ format:
     code-block-border-left: "#a7c947"
     lightbox:
       match: auto
+  nbis-course-revealjs:
+    theme: [default, assets/css/custom.scss]
+    toc: false
+    toc-depth: 2
+    slide-level: 2
+    slide-number: true
+    preview-links: true
+    chalkboard: false
+    footer: Systems thinking
+    smaller: true
+    highlight-style: gruvbox
+    fig-height: 3
+    fig-width: 3
+    fig-align: center
+    text-align: center
+    width: 1050
+    height: 700
+    margin: 0.05
+    navigation-mode: vertical
+    ultitle: true
+    nbistitlelogo: false
+    embed-resources: false
 
-from: markdown+emoji
-csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+
+knitr:
+  opts_chunk:
+    code-fold: false
+    tidy: true
+    comment-char: "#>"
+    fig-format: svg
+    engine.opts:
+      dvisvgm.opts: --font-format=woff
+      template: tikzfig.tex
+
+filters:
+  - nbis-course
 
 extensions:
   - nbis-course

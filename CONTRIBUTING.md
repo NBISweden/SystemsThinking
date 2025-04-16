@@ -23,6 +23,54 @@ quarto add quarto-ext/fontawesome
 quarto add percyfal/nbis-course
 ```
 
+## pre-commit
+
+It is recommended that you setup `pre-commit` for linting and for
+preventing the mistaken addition of large files, among other things.
+Run
+
+```
+pixi run pre-commit
+```
+
+to initialize `pre-commit` hooks.
+
+# Running Quarto
+
+Activate the `pixi` environment with `pixi shell` and run
+
+```
+quarto preview --port 9999
+```
+
+to preview pages, and
+
+```
+quarto render
+```
+
+to render.
+
+# Images
+
+You can add images to the `img` directory. Make sure to compress files
+as much as you can so as not to bloat the repository. For example, to
+compress `png` files you can run
+
+```
+pngquant -q 10 --output filename.png filename.png -f
+```
+
+and for `jpg` files
+
+```
+jpegoptim --size 100k --force -o filename.jpg
+```
+
+You can adjust the parameters in case you think the quality becomes
+too poor. The colors can at times become less clear and crisp, but
+that is a small price to pay for reduction in size.
+
 # Presentation material
 
 ## Slide structure
