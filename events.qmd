@@ -1,0 +1,20 @@
+---
+title: Events
+description: Events index
+listing:
+  - id: ystad2025
+    type: table
+    grid-columns: 4
+    fields: [title, subtitle, author]
+    sort: false
+    contents:
+      - events/ystad2025/intro.qmd
+      - events/ystad2025/menti.qmd
+format: nbis-course-html
+---
+
+## Ystad March 2025
+
+:::{#ystad2025}
+
+:::

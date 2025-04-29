@@ -1,6 +1,8 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: .
+  preview:
+    port: 9999
   render:
     - index.qmd
     - about.qmd
