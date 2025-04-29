@@ -1,0 +1,1019 @@
+---
+title: Mentimeter session
+format:  nbis-course-revealjs
+---
+
+## Setup  {visibility="hidden" .unnumbered .unlisted}
+
+```{r libs}
+#| echo: false
+#| eval: true
+#| cache: FALSE
+library(ggplot2)
+library(data.table)
+library(viridis)
+library(latex2exp)
+library(dplyr)
+library(plotly)
+bw <- theme_bw(base_size=10) %+replace%
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
+theme_set(bw)
+knitr::knit_hooks$set(inline = function(x) {
+                      prettyNum(x, big.mark=" ")
+                  })
+```
+
+## About the questions
+
+At times the questions are deliberately vague and background
+information has been left out. You have to make your own assumptions
+about what things are relevant to the question at hand.
+
+# Energy
+
+## Energy narratives
+
+:::: {.columns .small}
+
+::: {.column width="50%"}
+
+:::{}
+
+![](../../img/pv_renewable_2024.png)
+
+:::
+
+::: {.flushright}
+
+@metea_Nearly50GW_2025
+
+:::
+
+:::
+
+::: {.column width="50%" .fragment}
+
+:::{}
+
+![](../../img/china_coal_2025.png)
+
+:::
+
+::: {.flushright}
+
+@press_ChinaKeepsBuilding_2025
+
+:::
+
+:::
+
+::::
+
+## Energy narratives
+
+:::: {.columns .small}
+
+::: {.column width="50%"}
+
+![](../../img/nationalgrid_transition.png){width=100%}
+
+:::
+
+::: {.column width="50%"}
+
+![](../../img/un_transition.png){width=100%}
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.flushright}
+
+@WhatCleanEnergy_2025
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.flushright}
+
+@nations_RenewableEnergyPowering_
+
+:::
+
+:::
+
+::::
+
+## Energy menti
+
+<!-- markdownlint-disable MD013 -->
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/al7b586cr6hhjdeapbimtz73qsq6btho/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+<!-- markdownlint-enable MD013 -->
+
+::: {.notes}
+
+Goal of menti: show
+
+- no transition has taken place
+- the size of our energy use
+- how quick the growth is
+- point out that it takes energy to get energy
+
+Discussion slides
+
+- Human labor contained in one barrel of oil:
+  - Human work: 0.6 kWh/dayOne barrel of oil: 1700 kWh
+  - 1700/0.6 ~ 2800 days ~ 11 years (working ~260 days per year)
+- Shovel vs machine comparison
+  - Assuming a human uses 300 kcal/hour and moves 0.34 m3
+  - A John Deere uses 273,312 kcal/hour and moves 101.93 m3
+  - Bagger 293 uses 16.5 MW/hour and moves 14,158 m3
+  - The human wins at 0.271 m3 / MJ, Bagger 293 is second with 0.238
+    m3 / MJ and John Deere last at 0.089 m3 / MJ
+- stacked graph of historical energy use by type (oil/coal/...)
+- point out that the peak question has two answers, one for relative
+  use, one for absolute. The point is to highlight that we keep
+  *adding* energy to the mix, we're not replacing; there is no energy
+  transition
+- on the future of increased use:
+  - graph of global total energy use, point out that we're at 19TW
+    now, and extend it 2-300 years into the future - this could be a
+    good point to introduce the rule of 70; first the graph is until
+    today, ask what they think it will be in year 2100, introduce rule
+    of 70, extend the x axis
+    - this s Tom Murphy's planetary energy plot
+  - non-renewables: point out the maybe not so obvious fact that they
+    generate heat => 19TW negligible, 500TW => 1W/m2, equivalent to
+    today's radiative forcing (at XXXW we would - literally - boil the
+    water of the planet). Asimov makes this point in some book, find ref.
+  - yes, the energy flow from the sun is 10000 times higher than our
+    current use => energy is abundant?
+    - show Smil's graph of energy flows (sankey diagram of sun ->
+      earth) -> much of the primary energy is lost, only 87000 TW
+      reaches Earth'ssurface
+    - however, biosphere energy use is 100 TW - why not higher?
+    - much of the energy is used by Earth to do stuff; make winds,
+      currents, (see Antonio Turiel): if we tamper with this will have
+      unintended downstream consequences (find article on solar panels
+      on Arabic peninsula that have affeceted precipitation)
+    - renewables require much space
+- Marion King Hubbert's figure 30? utopian future vision of energy -
+  also hints at the carbon pulse
+- on EROI - it takes energy to get energy? Drake well vs Deep water
+  horizon? Could fit better under economy and efficiency and the segue
+  to technological advances
+
+:::
+
+## Energy and human labor {visibility="hidden"}
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe width="75%" height="75%" src="https://www.youtube.com/embed/S4O5voOCqAQ?si=pdo1uhecK85vkIoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+## Global primary energy consumption by source
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://ourworldindata.org/grapher/global-energy-substitution?stackMode=relative&tab=chart" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+## Global primary energy consumption by source
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://ourworldindata.org/grapher/global-energy-substitution?tab=chart" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+::: {.notes}
+
+See
+<https://ourworldindata.org/energy-mix#it-s-the-total-amount-of-fossil-fuels-we-burn-that-matters-and-we-continue-to-burn-more-each-year>
+
+They claim that "we need to displace existing fossil fuels in the
+energy mix much faster", despite the evidence that this is not
+happening *at all*.
+
+Quote Fressot: that all energy types are increasing is a trivial
+observation; the question is *why* they are increasing. His thesis is
+that there is a symbiosis between energy types (steel is required to
+transport oil, for steel more coal is needed etc)
+
+:::
+
+## Our energy history
+
+:::{}
+
+![](../../img/murphy-modernity-ff.jpg){width=100%}
+
+::: {.flushright}
+
+@murphy_ModernityIncompatiblePlanetary_2021
+
+:::
+
+:::
+
+## Our energy future(?)
+
+::::{.columns}
+
+:::{.column width=67%}
+
+![](../../img/galactic.png)
+
+:::
+
+:::{.column width=33%}
+
+::: {.small}
+
+*Power demand assuming 2.3% growth on a logarithmic plot. In 275, 345, and 400
+years, we demand all the sunlight hitting land and then the earth, assuming 20%,
+100%, and 100% conversion efficiencies, respectively. In 1350 years, we use as
+all power of the sun. In 2450 years, we use all stars in the Milky Way galaxy.
+Vertical notes provide historical perspective on how distant these benchmarks
+are in the context of civilization.*
+
+:::
+
+:::{.flushright}
+
+@tmurphy_galactic_scale_2011
+
+:::
+
+:::
+
+::::
+
+## Our energy budget
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![Deepwater horizon](../../img/Deepwater_Horizon.jpg){width=100%}
+
+:::
+
+::: {.column width="50%"}
+
+![](../../img/mantorp_inundation.png){width=100%}
+
+:::
+
+::: {.flushright}
+
+@alestig_FinansinspektionenVarnarExtremvadrets_2025
+
+:::
+
+::::
+
+# Economy
+
+## Economy narratives
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](../../img/truss_growth.png)
+
+::: {.flushright}
+
+@mason_LizTrussPromises_2022
+
+:::
+
+:::
+
+::: {.column width="50%" .fragment}
+
+![](../../img/svantesson_rikare.png)
+
+::: {.flushright}
+
+@radio_ElisabethSvantessonSverige_2024
+
+:::
+
+:::
+
+::::
+
+## Economy menti
+
+<!-- markdownlint-disable MD013 -->
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top:
+35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts
+allow-same-origin allow-presentation' allowfullscreen='true'
+allowtransparency='true' frameborder='0' height='315'
+src='https://www.mentimeter.com/app/presentation/alo8pvopoqc2g5jdp7mjifeszpnz4v8p/embed'
+style='position: absolute; top: 0; left: 0; width: 100%; height:
+100%;' width='420'></iframe></div>
+
+<!-- markdownlint-enable MD013 -->
+
+## How does an economist bake bread?
+
+:::{}
+
+```{r, engine='tikz', fig.ext="svg" }
+#| label: cobb-douglas
+#| echo: false
+#| eval: true
+#| cache: true
+#| out-width: 800px
+#| fig-align: center
+\begin{tikzpicture}[
+          >=latex,
+          label/.style={font=\small, node distance=2cm, anchor=base},
+          eq/.style={font=\Large, node distance=1cm,
+            outer sep=0, inner sep=0, anchor=base}
+          ]
+\draw node[eq] (Y) {$\strut Y$}
+node[eq, right of=Y, node distance=0.5cm] (eq) {$\strut =$}
+node[eq, right of=eq] (K) {$\strut K^{\alpha}$}
+node[eq, right of=K] (L) {$\strut L^{1-\alpha}$}
+node[label, below left of=Y] (prod) {Production}
+node[label, below of=K] (capital) {Capital}
+node[label, below right of=L] (labour) {Labour}
+node[label, above right of=labour] (elasticity) {elasticity};
+\draw[->] (prod) -- (Y);
+\draw[->] (capital) -- ($(K.south west) !.5! (K.south)$);
+\draw[->] (labour) -- ($(L.south west) !.8! (L.south)$);
+\draw[->] (elasticity) -- ($(L.north east)!.5!(L.east)$);
+\end{tikzpicture}
+```
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment}
+
+British investor Jeremy Grantham on eternal growth
+[@grantham_SustainabilityBustSheer_]
+
+> ... to allow economics 20 more years to get the point that to make
+> bread you need wheat and heat, in addition to labor and capital.
+> Mainstream economics decided back in the 1950s to basically ignore
+> the limits imposed by natural resources and environmental services,
+> including the downsides of waste products. ...
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+
+Economist response; Paul Krugman
+[@krugman_OpinionErrorsEmissions_2014]
+
+> And you sometimes see hard scientists making arguments along the
+> same lines, largely (I think) because they don’t understand what
+> economic growth means. They think of it as a crude, physical thing,
+> a matter simply of producing more stuff, and don’t take into account
+> the many choices — about what to consume, about which technologies
+> to use — that go into producing a dollar’s worth of G.D.P.
+
+:::
+
+:::
+
+::::
+
+::: {.notes}
+
+Quote on the unimportance of energy, materials:
+<https://growthecon.com/StudyGuide/solow/production.html>
+
+> Notice that I didn’t include anything explicit about natural
+> resources or raw materials here. We could, but they tend to not be
+> as important for growth in real GDP as we think. For the time being
+> we’ll leave them out, and later on can incorporate information about
+> them into the production function.
+
+Krugman quote [@krugman_OpinionErrorsEmissions_2014]:
+
+> And you sometimes see hard scientists making arguments along the
+> same lines, largely (I think) because they don’t understand what
+> economic growth means. They think of it as a crude, physical thing,
+> a matter simply of producing more stuff, and don’t take into account
+> the many choices — about what to consume, about which technologies
+> to use — that go into producing a dollar’s worth of G.D.P.
+
+Good comment:
+
+> I beg to differ. I have a dual degree in engineering and economics.
+> I used to believe the free-market dogma. I did very well in my
+> economics classes. However, it was studying real science that opened
+> my eyes. This has nothing to do with ideology and everything to do
+> with science. You can't decouple economic growth from growth in the
+> consumption of natural resources and not a single economist has been
+> able to prove that you can. It defies common sense (not to mention
+> the basic laws of physics) to expect that something can grow
+> infinitely within finite, constrained system. Many of our key
+> resources, like metals, exist in fixed supply. How in the world do
+> you reconcile that with a system that requires endless growth?
+
+Grantham [@grantham_SustainabilityBustSheer_]
+
+> I say 90 years to allow economics 20 more years to get the point
+> that to make bread you need wheat and heat, in addition to labor
+> and capital. Mainstream economics decided back in the 1950s to
+> basically ignore the limits imposed by natural resources and
+> environmental services, including the downsides of waste products.
+> In their methodology, capital, labor (and innovation, if you
+> insist) were always going to be enough. Externalities were ignored
+> and considered outside their equilibriums. ‘It’s only a question of
+> price,’ although quite soon, that may mean that only the very rich
+> can pay the necessary price while the rest starve. Steady
+> productivity gains do not buy you much time mathematically either,
+> and are in any case mostly offset quickly by the Jevons effect: the
+> cheaper the product, the more you use.
+
+Comment on Krugman's growthism by Herman Daly:
+
+<https://steadystate.org/krugmans-growthism/>
+
+:::
+
+## Economy and energy
+
+:::: {.columns}
+
+::: {.column width="67%"}
+
+![](https://dothemath.ucsd.edu/wp-content/uploads/2011/07/gwp-log.png){width=100%}
+
+:::
+
+::: {.column width="33%"}
+
+::: {.small}
+
+> World economic growth for the previous century, expressed in
+> constant 1990 dollars. For the first half of the century, the
+> economy tracked the 2.9% energy growth rate very well, but has since
+> increased to a 5% growth rate, outstripping the energy growth rate.
+
+::: {.flushright}
+
+@murphy_CanEconomicGrowth_2011
+
+:::
+
+:::
+
+:::
+
+::::
+
+## Decoupling the economy
+
+> Den ofta framförda tanken att användningen av energi och specifikt
+> fossila bränslen måste växa (eller krympa) i samma takt som konsumtion
+> och produktion är helt enkelt felaktig.
+
+::: {.flushright}
+
+[John Hassler, @hassler_SverigesKlimatstrategi_2023, p. 22]
+
+:::
+
+:::{style="transform: translateY(0px);"}
+
+:::{.fragment .small}
+
+<!-- markdownlint-disable MD013 -->
+
+![](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41567-022-01652-6/MediaObjects/41567_2022_1652_Fig3_HTML.png?as=webp){width=70% fig-align=center}
+
+<!-- markdownlint-enable MD013 -->
+
+> Model scenarios for economic growth in the face of stalled or steady
+physical resources.
+
+::: {.flushright}
+
+@murphy_LimitsEconomicGrowth_2022
+
+:::
+
+:::
+
+:::
+
+::: {.notes}
+
+a,b, Model scenarios for economic growth in the face of stalled or
+steady physical resources. In both panels, the blue line is the scale
+of physical activities, which reaches a saturation point due to
+physical constraints. The red curves represent the total economy. If
+demanding continued economic growth, as in panel a, a growing gap must
+open so that the fraction of economic activity in the non-physical
+sector (purple line; right-hand axis) approaches 100%. Panel b depicts
+a more realistic trajectory. In this case, the non-physical elements
+of the economy are constrained (arbitrarily) to grow no higher than
+75% of the total, resulting in only a modest amount of decoupled
+economic growth before flattening.
+
+:::
+
+## On infinite growth
+
+:::: {.columns}
+
+::: {.column width="67%"}
+
+<!-- markdownlint-disable MD013 -->
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0921800919310067-gr8_lrg.jpg){width=70% fig-align=center}
+
+<!-- markdownlint-enable MD013 -->
+
+:::{.fragment .small}
+
+:::{style="transform: translateY(20px);"}
+
+> Anyone who believes exponential growth can go on forever in a finite
+> world is either a madman or an economist.
+
+::: {.flushright}
+
+[Kenneth Boulding, in\ @united1973energy, p. 248]
+
+:::
+
+:::
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+:::{.small}
+
+> [...] pre-Industrial era up to Point A, humankind migrated around
+> the planet accessing solar flows [...] dawn of the industrial
+> revolution, Point B, humanity added the condensed stocks of
+> hydrocarbons [...] Between B and C we hit an energy crisis in the
+> 1970s, which we ‘solved’ by both 1) using debt to pull consumption
+> forward in time and 2) globalization and outsourcing to the cheapest
+> areas of production [...] Since 2007 we have grown our global debt
+> 3.5x faster than we’ve grown our economies bringing global debt/GDP
+> ratio to over 300% [...]
+
+::: {.flushright}
+
+@hagens2020economics
+
+:::
+
+:::
+
+:::
+
+::::
+
+::: {.notes}
+
+> In the pre-Industrial era up to Point A, humankind migrated around
+> the planet accessing solar flows using relatively simple technology
+> such as agriculture, sails, slaves and animal labor. At the dawn of
+> the industrial revolution, Point B, humanity added the condensed
+> stocks of hydrocarbons to previously flow-based human economies. A
+> valid description of the Solow residual (i.e. the economic growth
+> not explained by labor or capital) was absent during this time
+> because the black line and red line were tracking together.
+>
+> Between B and C we hit an energy crisis in the 1970s, which we
+> ‘solved’ by both 1) using debt to pull consumption forward in time
+> and 2) globalization and outsourcing to the cheapest areas of
+> production. These changes allowed economic growth to continue until
+> it hit a wall with conventional finance in 2008 (Point C)– at which
+> point central banks and global governments were forced to
+> essentially redesign the entire financial system. This new (ongoing)
+> paradigm involved measures such as too-big-to-fail guarantees,
+> artificially low interest rates (even negative!) (Salmon, 2019),
+> quantitative easing, central bank balance sheet expansion and
+> various GDP-friendly rule changes (Alderman, 2014). The continued
+> increase in global credit allowed: access to costlier tranches of
+> resources, more social programs, cheap financing for renewable
+> energy, and a sustained – if tepid – return to economic growth
+> since 2009. We are now heading towards Point D, where our global
+> monetary representations of reality continue to decouple from the
+> underlying biophysical reality (red curve).
+>
+> Since 2007 we have grown our global debt 3.5x faster than we’ve
+> grown our economies bringing global debt/GDP ratio to over 300%
+> (Tiftik et al., 2019). Most institutional experts and pundits are
+> aware of Point D, but because of cultural energy blindness, are
+> generally not aware of this point in relation to the red line, or
+> even that there is a red line. Eventually we will discover that the
+> black line (money and credit) also has limits, which ultimately are
+> tethered to the growth enabled by energy and resource availability
+> and cost.
+
+:::
+
+# Technology
+
+## Technology narratives
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](../../img/rosell_dn.png){width=50% fig-align=center}
+
+> För jorden har i alla fall en obegränsad resurs: den mänskliga
+> kreativiteten. Varför skulle inte en växande och alltmer välutbildad
+> befolkning – som dessutom har hjälp av AI – kunna använda begränsade
+> råvaror exempelvis en procent smartare varje år?
+
+::: {.flushright}
+
+@_EliasRosellJag_2024
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+![](../../img/hjelm_2024_leksell.png){width=50% fig-align=center}
+
+> Alternativ finns ju som tur är. Med ”smartare miljöteknik, mer
+> energieffektiva metoder och smartare sätt att transportera oss” kan
+> vi få ökat välstånd utan ökade utsläpp [...]
+
+::: {.flushright}
+
+@_MaxHjelmFlickidolen_2024
+
+:::
+
+:::
+
+::::
+
+## Tech menti
+
+<!-- markdownlint-disable MD013 -->
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/altk35d6qodratweq8use5hrpmgmn92r/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+<!-- markdownlint-enable MD013 -->
+
+::: {.notes}
+
+- are there limits to technological progress?
+- is technological progress rate increasing or declining?
+- Tom Murphy's example of time travel 1870->1950 vs 1950-> today, who
+  sees most transformative progress
+
+Segue:
+
+so if getting more energy is difficult and we are so coupled to
+energy/materia is a potential route efficiency?
+
+Goal:
+
+- discuss limits of technology (often from a thermodynamic lens)
+- objection: what if you limit
+
+Resources:
+
+- DN ledare about using AI to improve material use 1% per year
+
+Graphs:
+
+- from Marc Andreesen tech-optimism to more gloomy prediction; fill in
+  betweens
+- our world in data graph on tech dev
+- Tom Murphy's graph of light and S-curve of tech development
+- S-curve of the ensembl of technologies; we have in fact picked the
+  low hanging fruit; could it be the slowdown in progress is because
+  of this (here, point to articles in Nature, Ulf Danielsson, hell
+  even Peter Thiel, on the slowdown of discoveries); also point out
+  that the rate must be normalized by population size and GDP spent on
+  research
+
+:::
+
+## The techno-optimism scale
+
+:::{style="font-size: 0.7em;" .small}
+
+:::{.absolute top=300 left=-100 width=125%}
+
+```{r, engine='tikz', fig.ext="svg" }
+#| label: techopt-arrow
+#| echo: false
+#| eval: true
+#| cache: true
+#| column: screen
+#| out-width: 100%
+#| out-height: 40px
+\begin{tikzpicture}[ultra thick, >=latex, font=\large]
+\draw[->] node[label=above right:{tech realism}] (a) {}
+node[right of=a, node distance=1600px, label=above left:{tech optimism}] (b) {}
+(a) -- (b);
+\end{tikzpicture}
+```
+
+:::
+
+![](../../img/Marc-Andreessen.png){.absolute top=10 right=-100
+height=70px}
+
+[The techno-optimist manifesto
+@andreessen_TechnoOptimistManifesto_2023]{.absolute top=100 right=-3cm
+width=4cm}
+
+::: {.fragment}
+
+![](https://dothemath.ucsd.edu/wp-content/uploads/2024/01/mug2.jpg){.absolute
+top=10 left=-100 height=70px}
+
+[Our Ugly Magnificence @tmurphy_OurUglyMagnificence_2023]{.absolute top=100 left=-100 width=4cm}
+
+:::
+
+::: {.fragment}
+
+![](https://www.thekurzweillibrary.com/wp-content/themes/kurzweilai/images/ray-kurzweil.jpg){.absolute
+top=520 right=-100 height=70px}
+
+[Ray Kurzweil: "We are going to to expand intelligence by a
+millionfold by 2045" @corbyn_AIScientistRay_2024]{.absolute
+top=350 right=-3cm width=4cm}
+
+:::
+
+::: {.fragment}
+
+[Why the Singularity Cannot Happen
+@modis_WhySingularityCannot_2012]{.absolute top=350
+left=-20 width=4cm}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Theodore_Modis_Recent.jpg/1920px-Theodore_Modis_Recent.jpg){.absolute
+top=570 left=-20 height=70px fig-alt="By Terzopoulou - Own work, CC
+BY-SA 4.0, <https://commons.wikimedia.org/w/index.php?curid=94774361>"}
+
+:::
+
+<!-- markdownlint-disable MD013 -->
+
+::: {.fragment}
+
+![](../../img/TheLimitsToGrowth.jpg){.absolute top=150 left=400 width=3cm}
+
+[Limits to growth @meadows_LimitsGrowthReport_1972]{.absolute top=80 left=400 width=4cm}
+
+:::
+
+::: {.fragment}
+
+[Technology over the Long Run @roser_TechnologyLongRun_2023]{.absolute
+top=120 right=100 width=3cm}
+
+[More from Less @mcafee_MoreLessSurprising_2019]{.absolute top=400
+right=90 width=4cm}
+
+![](../../img/hoekstra.jpg){.absolute top=350 right=420 width=2cm
+fig-cap="Auke Hoekstra"}
+
+[Auke Hoekstra]{.absolute top=460 right=400}
+
+![](https://www.liebreich.com/wp-content/themes/understrap/img/home-page.png){.absolute
+top=60 right=260 width=2cm}
+
+[Michael Liebreich]{.absolute top=160 right=240}
+
+![](https://web.stanford.edu/group/efmh/jacobson/25-02-05-MZJ-Stanford.jpg){.absolute
+top=480 right=210 width=2cm}
+
+[Marc Jacobsen]{.absolute top=590 right=200}
+
+![](https://energy.utexas.edu/sites/default/files/styles/utexas_image_style_500w_500h/public/team_members/300%20x%20300%20Carey%20King.png.webp?itok=zUyz_8KZ){.absolute
+top=50 left=220 width=2cm}
+
+[Carey W King]{.absolute top=150 left=200}
+
+![](../../img/garrett.jpg){.absolute top=430 left=140 width=3cm}
+
+[Timothy Garrett]{.absolute top=560 left=130}
+
+[A Possible Declining Trend for Worldwide Innovation
+@huebner_PossibleDecliningTrend_2005]{.absolute top=200 left=40
+width=6cm}
+
+[Tim Lenton @trust_PlanetarySolvencyFinding_2025]{.absolute top=400 left=400 width=3cm}
+
+:::
+
+<!-- markdownlint-enable MD013 -->
+
+:::
+
+::: {.notes}
+
+Show graph from Marc Andreesen to Tom Murphy, with the intent to show
+the wide range of opinions from clever people
+
+- Andreesen
+- Musk on Mars
+- Kurzweil on AGI
+- OWID article by Max Roser
+- McAfee
+- Hoekstra, Liebreich, Jacobson
+- Limits to Growth
+- Carey W King
+- Tim Garrett (not really about tech though)
+- Theodore Modis (there will never be an AGI)
+- Rutherford on Mars?
+- Huebner, Tad Patzek
+- Tom Murphy on modernity, response to Andreesen
+
+Photo attributions:
+
+By Terzopoulou - Own work, CC BY-SA 4.0,
+<https://commons.wikimedia.org/w/index.php?curid=94774361>
+
+:::
+
+## How to make a soda can
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r }
+#| label: mcafee-cans
+#| echo: false
+#| eval: true
+#| out-width: 100%
+cans <- data.frame(c(1959, 1972, 2011), c(85, 21, 13))
+colnames(cans) <- c("Year", "Weight")
+cans %>% ggplot(aes(x = Year, y = Weight)) + geom_point() +
+  ggtitle("Weight of aluminium cans over time") + labs(y = "Weight (g)") +
+  theme(plot.title = element_text(size = 10, face = "bold"))
+```
+
+::: {.flushright}
+
+@mcafee_MoreLessSurprising_2019, @_AndrewMcAfeeMore_
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+Four horsemen of the optimist:
+
+- technological progress
+- capitalism
+- public awareness
+- responsive government
+
+::: {.fragment}
+
+Missing observation:
+
+::: {.incremental}
+
+- limit to efficiency
+- aggregate material use the interesting quantity
+
+:::
+
+:::
+
+:::
+
+::::
+
+::: {.notes}
+
+For balance:
+
+- <https://www.forbes.com/sites/cognitiveworld/2019/12/04/review-of-more-from-less-by-andrew-mcafee/>
+
+For more negative review of McAfee I may be thinking of Carey King's
+treatment in the economic superorganism
+
+Book review: <https://www.goodreads.com/review/show/3113843293>
+
+Fail to point out two things:
+
+1. efficiency limits -> S-curves
+2. aggregate that counts -> rebound effect (halved fuel consumtion
+   does not lead to halved emissions) -> the *intent* is crucial to
+   understanding efficiency, often implicit assumption is growth
+
+:::
+
+# Exponential growth
+
+## Exponential menti
+
+:::{}
+
+<!-- markdownlint-disable MD013 -->
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/albwt3q1o97zni81qtu9af8jnn94iyp2/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+<!-- markdownlint-enable MD013 -->
+
+:::
+
+## Cumulative growth
+
+:::{}
+
+```{r }
+#| label: shaded-area-plot
+#| echo: false
+#| eval: true
+#| out-width: 100%
+#| out-height: 100%
+n0 <- 1
+g <- seq(1, 10, 0.001)
+n <- n0*2**g
+df <- tibble(data.frame(g=g, n=n, cumsum=cumsum(n)))
+history <- sprintf("history: %.1f", df$cumsum[8000] - df$cumsum[1])
+latest <- sprintf("latest: %.1f", df$cumsum[9001] - df$cumsum[8000])
+fig <- plot_ly()
+fig <- fig %>% add_trace(data=df, x=g[1:8000], y=n[1:8000],
+                         type="scatter", mode="lines", fill="tozeroy",
+                         hoveron="points+fills", text=history, hoverinfo="",
+                         hovertext=history, name="history")
+fig <- fig %>% add_trace(data=df, x=g[8000:9001], y=n[8000:9001],
+                         type="scatter", mode="lines", fill="tozeroy",
+                         hoveron="points+fills", text=latest, hovertext=latest, name="latest")
+fig <- fig %>% layout(height=400, width=1000, xaxis=list(showticklabels=FALSE),
+                      yaxis=list(showticklabels=FALSE), showlegend=FALSE)
+fig
+```
+
+:::
+
+Every doubling consumes as much resources as the **entire** previous history!
+
+::: {.fragment}
+
+<h4>Rule of 70</h4>
+
+Given a growth rate $r$ (annual, generational, ...) in percent, the
+doubling time is roughly equivalent to $70 / r$.
+
+:::
+
+::: {.fragment}
+
+So an annual growth rate of 1% means 70 doubling time, 2% 35 years, etc.
+
+A 2.1% growth rate has a doubling time of 30 years, or 3.3 per century
+-> a factor 10!
+
+:::
+
+# Planetary boundary futures
+
+:::{}
+
+<!-- markdownlint-disable MD013 -->
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alw7yqoae916ewsh3pgt6voukzdefwoq/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+<!-- markdownlint-enable MD013 -->
+
+:::
+
+# Bibliography

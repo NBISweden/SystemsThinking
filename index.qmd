@@ -1,5 +1,6 @@
 ---
 title: "Systems thinking"
+format: nbis-course-html
 ---
 
 Systems thinking about planetary boundaries, energy, biodiversity and

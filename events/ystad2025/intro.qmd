@@ -1,0 +1,912 @@
+---
+title: State of the Earth research
+subtitle: A plenary discussion about the state of the planet
+format:
+  nbis-course-revealjs:
+    template-partials:
+      - title-slide.html
+---
+
+## Setup  {visibility="hidden" .unnumbered .unlisted}
+
+```{r libs}
+#| echo: false
+#| eval: true
+#| cache: FALSE
+library(ggplot2)
+library(data.table)
+library(viridis)
+library(latex2exp)
+library(scales)
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(ggtext)
+library(dplyr)
+bw <- theme_bw(base_size=10) %+replace%
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
+theme_set(bw)
+knitr::knit_hooks$set(inline = function(x) {
+                      prettyNum(x, big.mark=" ")
+                  })
+```
+
+## About
+
+#### Initiative
+
+::::{.columns}
+
+:::{.column width=60%}
+
+![](https://www.stockholmresilience.org/images/200.3d04209a18a2642b2fc15eb6/1694596418196/Planetary%20Boundaries%202023.png){width="75%"}
+
+::: {.flushright}
+
+@richardson_EarthSixNine_2023
+
+:::
+
+:::
+
+:::{.column width=40%}
+
+Start a **regularly occurring** activity at the NBIS retreats where we
+together increase our awareness of the pressures on the environment
+caused by human societies.
+
+:::
+
+::::
+
+## About
+
+#### Motivation #1: We are already spending time on this
+
+::::{.columns}
+
+:::{.column width=60%}
+
+![](https://www.stockholmresilience.org/images/200.3d04209a18a2642b2fc15eb6/1694596418196/Planetary%20Boundaries%202023.png){width="75%"}
+
+::: {.flushright}
+
+@richardson_EarthSixNine_2023
+
+:::
+
+:::
+
+:::{.column width=40%}
+
+Intersection with NBIS support:
+
+- Climate (biodiversity patterns, resilience, evolution)
+- Biosphere integrity (biodiversity loss, genetic diversity)
+- Novel entities (chemical exposure & human health)
+- Land system change (forest communities, carbon sequestration)
+- _etc_
+
+:::
+
+::::
+
+## About
+
+#### Motivation #2: Public outreach
+
+::::{.columns}
+
+:::{.column width=50%}
+
+![](../../img/outreach.jpg)
+
+:::{.flushright}
+
+:::{.smaller}
+
+<!-- markdownlint-disable MD013 -->
+
+Photo by <a
+href="https://unsplash.com/@neonbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kenny
+Eliason</a> on <a
+href="https://unsplash.com/photos/man-and-woman-sitting-on-chairs-zFSo6bnZJTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+<!-- markdownlint-enable MD013 -->
+
+:::
+
+:::
+
+:::
+
+:::{.column width=50%}
+
+The importance of scientific communication to build public trust, maximize
+societal impact, foster informed decision-making and promote evidence-based
+policies is highlighted in the strategies of Swedish universities, VR,
+NBIS and SciLifeLab.
+
+:::
+
+::::
+
+## About
+
+#### Motivation #3: Confidence
+
+::::{.columns}
+
+:::{.column width=60%}
+
+![](../../img/va_baro1.png){width="75%"}
+
+::: {.flushright}
+
+@_JohanssonPalmkvist_2025
+
+:::
+
+:::
+
+:::{.column width=40%}
+
+The public has high confidence in research
+
+:::
+
+::::
+
+## About
+
+#### Motivation #3: Confidence
+
+::::{.columns}
+
+:::{.column width=60%}
+
+![](../../img/va_baro1.png){width="75%"}
+
+::: {.flushright}
+
+@_JohanssonPalmkvist_2025
+
+:::
+
+:::
+
+:::{.column width=40%}
+
+The public has high confidence in research...and believe our opinions
+contribute to better policymaking.
+
+> A majority (66 percent) believe that researchers should express
+> their opinions on political issues related to their research ...
+> Over half of those who support researchers sharing their opinions
+> believe that it contributes to better policymaking.
+
+:::
+
+::::
+
+## Session format
+
+Friendly discussions of a topic of interest.
+
+- What’s the scope of the problem?
+- What do we know from the current science, and what do we see in our
+  support projects that are relevant to the problem?
+- What would it take to alleviate the impacts/come to terms with the
+  issue?
+
+#### Code of conduct
+
+These are *very* complex wide-boundary problems and topics.
+
+- no one has all the answers
+- we can learn from each other
+- agree to disagree and be kind to those who hold different opinions
+
+#### Layout
+
+- Mentimeter questions on some topic to gauge what people think
+- A couple of slides with facts that aim to further the discussion
+
+::: {.notes}
+
+Wide-boundary problem: implies a problem where reductionist thinking
+falls short and instead a systems approach is needed for understanding
+
+For future session: as we may come across as pessimistic, could be an
+opportunity for someone with a more optimistic outlook to present a
+different perspective
+
+:::
+
+## Planetary boundaries - how it's going
+
+:::{}
+
+![](../../img/planetary_boundaries.png)
+
+:::
+
+:::{.flushright}
+
+@richardson_EarthSixNine_2023
+<br>
+@_PlanetaryBoundaries_2012
+
+:::
+
+::: {.notes}
+
+How it's going...
+
+Segue from LtG: Johan Rockström claims Dennis Meadows is his hero
+(podcast on LtG, _TippingPointPodcast_2023)
+
+Note: climate change is but **one** of the tipping points; it is not
+the main issue to tackle, but rather a symptom of something else,
+namely ecological overshoot
+
+:::
+
+## Transgressing the boundaries
+
+::::{.columns}
+
+:::{.column width=60%}
+
+![](https://www.stockholmresilience.org/images/200.3d04209a18a2642b2fc15eb6/1694596418196/Planetary%20Boundaries%202023.png){width="75%"}
+
+:::
+
+:::{.column width=40%}
+
+<!-- markdownlint-disable MD028 -->
+
+> Today, human activities with planetary-scale effects act as
+> additional forcing on Earth system. @richardson_EarthSixNine_2023
+
+> The remarkable explosion of the human enterprise from the mid-20th
+> century, and the associated global-scale impacts on many aspects of
+> Earth System functioning, mark the second stage of the Anthropocene -
+> **the Great Acceleration**. @steffen2007anthropocene
+
+<!-- markdownlint-enable MD028 -->
+
+:::
+
+::::
+
+## The Great Acceleration
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r }
+#| label: ga-gdp
+#| echo: false
+#| eval: true
+#| out-width: 100%
+data.table::fread("../../data/socio-economic_trends_2_real_gdp.csv") %>%
+  ggplot(aes(x = Year, y = World, color = "World")) +
+  geom_line() +
+  geom_vline(xintercept = 1950, linetype = "dashed") +
+  geom_vline(xintercept = 2020, linetype = "dashed") +
+  scale_y_continuous(labels = scales::label_number(scale_cut = cut_si("unit"))) +
+  scale_color_manual(values = c("World" = "blue")) +
+  ggtitle("Real GDP (World)") +
+  labs(x = "Year", y = "GDP (Trillion USD)", color = NULL) +
+  theme(legend.position = "none")
+```
+
+::: {.flushright}
+
+@steffen_TrajectoryAnthropoceneGreat_2015
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+:::{.r-stack}
+
+::: {.fragment .fade-out}
+Gross Domestic Product - an indicator of human activity
+:::
+
+::: {.fragment .fade-in-then-out}
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://ourworldindata.org/grapher/the-share-and-number-of-people-living-in-extreme-poverty?tab=chart" loading="lazy" style="width: 100%; height: 500px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+::: {.flushright}
+
+@owid-poverty
+
+:::
+
+:::
+
+::: {.fragment .fade-in-then-out}
+
+<!-- markdownlint-disable MD013 -->
+
+<iframe src="https://ourworldindata.org/grapher/maize-production?tab=chart" loading="lazy" style="width: 100%; height: 500px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+<!-- markdownlint-enable MD013 -->
+
+::: {.flushright}
+
+@owid-agricultural-production
+
+:::
+
+:::
+
+::: {.fragment}
+
+Growth in human activity has resulted in huge improvements in living
+standards, but has also had severe negative effects.
+
+**Question**: Where are we heading?
+
+:::
+
+:::
+
+:::
+
+::::
+
+::: {.notes}
+
+see source tables at <https://journals-sagepub-com.ezproxy.its.uu.se/doi/10.1177/2053019614564785>
+
+Humanity has achieved great things - be sure to point out the positive
+-> segue to the price we pay, that this may be a short-lived Faustian
+bargain
+
+- tremendous growth since WWII
+
+On criticism of OWID, see ref donald_ItsNotScience_2023
+
+:::
+
+## Competing narratives of the future {visibility="hidden"}
+
+:::{}
+
+```{r, engine="tikz", fig.ext="svg" }
+#| label: narratives
+#| echo: false
+#| eval: true
+#| cache: true
+#| out-width: 800px
+#| out-height: 550px
+#| fig-align: center
+\begin{tikzpicture}[>=latex, narrative/.style={align=center}, node distance=4cm, font=\sffamily]
+\draw node (mid) at (0, 0) {};
+
+\draw node[above of=mid] (techopt) {\begin{tabular}{c}Economic
+    Narrative: \emph{Techno-optimism}\\ (Infinite
+    substitutability)\end{tabular}};
+
+\draw node[below of=mid] (techreal) {\begin{tabular}{c}Economic
+    Narrative: \emph{Techno-realism}\\ (Finite Earth
+    Limitations)\end{tabular}};
+
+\draw node[left of=mid] (ff) {\begin{tabular}{c}Energy Narrative:\\
+    \emph{Fossil Fuels}\end{tabular}};
+
+\draw node[right of=mid] (renew) {\begin{tabular}{c}Energy
+    Narrative:\\ \emph{Renewables}\end{tabular}};
+
+\draw[<->] (techopt) -- (techreal);
+
+\draw[<->] (ff) -- (renew);
+\end{tikzpicture}
+```
+
+::: {.flushright}
+
+king_EconomicSuperorganismCompeting_2021, p. 13
+
+:::
+
+:::
+
+::: {.notes}
+
+FIXME: should this come later? what is the transition from the great
+acceleration? Maybe that this is a good model for understanding the
+ideological conflicts and background to why planetary boundaries has
+become a problem
+
+[king_EconomicSuperorganismCompeting_2021]
+
+Energy narratives: fossil fuels are the future vs renewable energy is
+the future. Both of these narratives make use of economy narratives to
+justify their arguments:
+
+techno-optimism uses technological innovation and infinite
+substitutability, and price signals will automagically usher out the
+use of detrimental products in exchange for better ones. This
+narrative does not deny that Earth is finite, just that this fact will
+not affect social outcomes
+
+techno-realism says that Earth imposes biophysical limits on growth
+that in the long run will affect social outcomes.
+
+:::
+
+## Limits to growth update {visibility="hidden"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](../../img/ltg-you-are-here.png){width=65% fig-align=center}
+
+::: {.flushright}
+
+[meadows_LimitsGrowthReport_1972]
+
+:::
+
+::: {.fragment}
+
+- **not** a prediction!
+- do **not** interpret years on graph literally
+- is **not** an attempt to model collapse dynamics
+
+:::
+
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="35%"}
+
+::: {.fragment}
+
+<h5>Intended use and main message</h5>
+
+- provides a model to think about complex interactions
+- systems with time-delayed feedback loops likely to display overshoot
+  prior to collapse
+
+:::
+
+::: {.fragment}
+
+<h5>Typical critical responses</h5>
+
+- downplays role of innovation
+- 50 years empirical evidence shows all is well
+  [pignal_MeetLeftyEuropeans_2023]
+- Nordhaus critique: cannot model interactions of this complexity
+  [nordhaus_LethalModel2_1992]
+  - economists in general: skeptical of systems dynamics approach
+- However: recent empirical studies show we are following the dynamics
+  of graph [herrington_UpdateLimitsGrowth_2021]
+
+:::
+
+:::
+
+::::
+
+::: {.fragment}
+
+[_TippingPointPodcast_2023]{.absolute top=0 right=0cm width=10cm}
+
+:::
+
+::: {.notes}
+
+Example of the technorealist narrative.
+
+Comments Dennis Meadows has made about the graph:
+
+- the graph is **not** a prediction; it's a systems framework for
+  thinking about growth and the interconnectedness of variables
+- don't pay too much attention to the downward trajectories - this is
+  a different regime and likely impossible to model; the authors even
+  considered leaving these parts out
+- years don't matter; however, the "You are here" was added by Dennis
+  Meadows after the 30-year update as data indicate we are following
+  the trajectories in the plot
+- recent research (Herrington, Turner) also indicate we are following
+  trajectories
+
+See response to the economist: parrique_ResponseEconomistShut_2023
+
+:::
+
+## Perspective: CO2
+
+:::{.r-stack}
+
+![](../../img/mlo_full_record.png){width=9in}
+
+![](../../img/co2_1700.png){.fragment fragment-index=1 width=9in}
+
+![](../../img/co2_10k.png){.fragment fragment-index=2 width=9in}
+
+![](../../img/co2_800k.png){.fragment fragment-index=3 width=9in}
+
+:::
+
+::: {.flushright width=200px .absolute right=-100 top=400}
+
+@monroe_KeelingCurve_
+
+:::
+
+::: {.fragment fragment-index=4}
+
+Fun (?) fact: we are currently emitting CO2 at a rate that is
+estimated to be 10-50 times higher than that which caused the mother
+of all extinctions, the Permian mass extinction 252 MYA
+
+::: {.flushright}
+
+@wu_SixfoldIncreaseAtmospheric_2021, @cui_InitialAssessmentCarbon_2013
+
+:::
+
+:::
+
+::: {.notes}
+
+Keeling curve: point out before 800k time series that CO2 levels have
+been **remarkably** stable during the Anthropocene, since the
+beginning of civilization, to the point that it is believed (whom?)
+this was a necessary condition for civilization to flourish in the
+first place
+
+On the rate of CO2 emission: an issue seldom discussed in media is
+that although the assumption is humans will adapt to new climates due
+to technology and inherent adaptability, very little is said about
+wildlife. The changes may in fact be so rapid that there is not enough
+time for natural populations to adapt.
+
+Quote from Cui et al, conclusions:
+
+> Based on simulations using cGENIE, our estimate of the peak rate of
+> carbon release during the end-Permian event ranges from 0.42 to 1.52
+> Gt C yr− 1, which is comparable to that estimated during the PETM,
+> but significantly smaller than the fossil fuel burning rate today (9
+> Gt C yr− 1).
+
+:::
+
+## Perspective: Biodiversity
+
+::::{.columns}
+
+:::{.column width=50%}
+![](../../img/wild_mammal_biomass_2023.jpg){width=85%}
+
+:::{.flushright}
+
+@greenspoon_GlobalBiomassWild_2023
+
+:::
+
+:::
+
+:::{.column width=50%}
+
+:::{.fragment}
+
+![](https://dothemath.ucsd.edu/wp-content/uploads/2022/09/hockey-land-mammal.png)
+
+:::{.flushright}
+
+@tmurphy_EcologicalCliffEdge_2023
+
+:::
+
+:::
+
+:::
+
+::::
+
+## Perspective: Novel entities
+
+![](https://dothemath.ucsd.edu/wp-content/uploads/2022/09/hockey-plastic.png)
+
+::: {.flushright}
+
+@tmurphy_DeathHockeySticks_2022
+
+:::
+
+## Perspective: Human health
+
+![](../../img/sperm_count.jpg){width=80%}
+
+::: {.flushright}
+
+@levine_TemporalTrendsSperm_2023
+
+:::
+
+## Where do we want to go? {visibility="hidden"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](../../img/doughnut_economics.png)
+
+::: {.flushright}
+
+raworth2017doughnut
+
+:::
+
+:::
+
+::: {.column width="50%" .fragment}
+
+![](../../img/seven_ways_economics.png){width=80%}
+
+:::
+
+::::
+
+::: {.notes}
+
+Doughnut Economics: just **one** way of thinking; the goals are
+probably not controversial; however, the means (column 2) are (e.g.,
+dropping focus on GDP). The systems dynamic approach (4) is gaining
+some traction among economists, although still being ignored by most
+(ref?)
+
+:::
+
+## What is our role? Science and neutrality
+
+Remain neutral?
+
+:::{.center}
+
+> I am foremost concerned by an increasing number of climate
+> scientists becoming climate activists, because scholars *should not
+> have a priori interests in the outcome of their studies*
+
+:::{.small}
+
+Büntgen, U. (2024). The importance of distinguishing climate science
+from climate activism. [@buntgen_ImportanceDistinguishingClimate_2024]
+
+:::
+
+:::
+
+::: {.fragment}
+
+Or engage actively?
+
+:::{.center}
+
+> ... motivations for engaging in research, advocating for funding,
+> being interested in achieving a successful outcome (including
+> rejoicing when the experiment actually works), and wanting to
+> contribute to scientific knowledge are all forms of having
+> ‘interests in the outcome of studies.’ What scientist undertakes
+> research where they have no interest whatsoever in the outcome?
+
+:::{.small}
+
+van Eck, C. W., Messling, L., & Hayhoe, K. (2024). Challenging the
+neutrality myth in climate science and activism.
+[@vaneck_ChallengingNeutralityMyth_2024]
+
+:::
+
+:::
+
+:::
+
+## What is our role? Science and neutrality
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+:::{.center}
+
+<!-- markdownlint-disable MD013 -->
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:tbqqvyv6pjjww44glrmycaxl/app.bsky.feed.post/3lh3qyhttgk23" data-bluesky-cid="bafyreiayea6i2of7iqhdskcijtytnrqvry4263qz3hucmtktvpmxpcnjrm"><p lang="en">Shout out to all the fuckwits who told me, two months ago, that scientists must strive to remain apolitical.</p>&mdash; Carl T. Bergstrom (<a href="https://bsky.app/profile/did:plc:tbqqvyv6pjjww44glrmycaxl?ref_src=embed">@carlbergstrom.com</a>) <a href="https://bsky.app/profile/did:plc:tbqqvyv6pjjww44glrmycaxl/post/3lh3qyhttgk23?ref_src=embed">February 1, 2025 at 6:14 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+<!-- markdownlint-enable MD013 -->
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.small}
+
+Trump 2.0: An Assault on Science Anywhere Is an Assault on Science Everywhere
+[@_Trump20Assault_2025]
+
+> US President Donald Trump is taking a wrecking ball to science and
+> to international institutions. The global research community must
+> take a stand against these attacks.
+
+:::
+
+:::
+
+::::
+
+:::: {.columns .fragment}
+
+::: {.column width="50%"}
+
+![](../../img/samhallsdebatt_curie_2025.png){width=50% fig-align=center}
+
+::: {.flushright}
+
+@_VarforTarForskare_2025
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+![](../../img/wyatt_2024_actions.png){width=80% fig-align=center}
+
+::: {.flushright}
+
+@wyatt_ActionsSpeakLouder_2024
+
+:::
+
+:::
+
+::::
+
+::: {.notes}
+
+My emphasis. Neutrality is tricky to navigate and science must remain
+apolitical. Message: we must be willing to engage more in the public
+debate and not leave it to economists and social scientists who are
+probably more interested *a priori* (!)
+
+:::
+
+## Summary
+
+#### Topic ideas
+
+::::{.columns}
+
+:::{.column width=50%}
+
+![](https://www.stockholmresilience.org/images/200.3d04209a18a2642b2fc15eb6/1694596418196/Planetary%20Boundaries%202023.png){width="75%"}
+
+:::
+
+:::{.column width=50%}
+
+The examples we present are a subset from a wide variety of topics
+where we should aim to keep up to date or need at least a cursory
+knowledge
+
+- Biodiversity loss
+- Chemical pollutants and human health
+- Energy use and renewables
+- Land use/deforestation and eutrophication
+- Exponential-growth on a finite planet
+- Technical innovation and progress
+- Climate change and life on a hotter planet
+- _etc._
+
+:::
+
+::::
+
+## Summary
+
+#### How is this relevant for NBIS?
+
+:::{.fragment}
+
+**Professional development/Keeping ahead of the curve**
+
+- These things affect all our fields
+- Systems thinking and interdisciplinary studies will become more and
+  more important
+
+:::
+
+:::{.fragment}
+
+> Molecular and predictive understanding of living systems will allow
+> to address health and environmental changes
+
+*Integrated Data Services presentation, NBIS Retreat March 2025*
+
+:::
+
+:::{.fragment}
+
+**Outreach**
+
+- We need to know what to communicate, and how
+- We, in our role as experts, need to know what we know before
+  reaching out
+
+:::
+
+::: {.notes}
+
+Title slide image source from Stockholm Resilience Center:
+<https://www.stockholmresilience.org/research/planetary-boundaries.html>
+
+:::
+
+## Per's journey {visibility="hidden"}
+
+- Always been skeptical of statements about exponential growth
+- Early 2000 interested in the phenomenon pseudoscience $\rightarrow$
+  climate science and climate denial $\rightarrow$ state of the planet
+- 2007 discovered "Sustainable Energy - without the Hot Air"
+  [mackay_SustainableEnergyHot_2009]
+- 2017-18 listened to climate podcast "Deep convection"
+  [_DeepConvection_] where interest in energy and economic theory
+  grew
+- 2020 and onwards went down the rabbit hole
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Podcasts
+
+- "Deep convection" [_DeepConvection_]
+- "The Great Simplification" [_GreatSimplificationNate_]
+- "Pitchfork economics" [_PitchforkEconomics_2025]
+- "Planet critical" [donald_PlanetCriticalRachel_2025]
+- "Cleaning up" [_CleaningLeadershipAge_]
+
+:::
+
+::: {.column width="50%"}
+
+#### Books
+
+- "Limits to Growth - The 30-Year Update"
+  [meadows_LimitsGrowth30Year_2004]
+- "Sustainable Energy - without the Hot Air"
+  [mackay_SustainableEnergyHot_2009]
+- "Energy and Human Ambitions on a Finite Planet"
+  [murphy_EnergyHumanAmbitions_2021]
+- "The economic superorganism"
+  [king_EconomicSuperorganismCompeting_2021]
+- plus ~15 more
+
+:::
+
+::::
+
+## Bibliography

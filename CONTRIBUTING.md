@@ -16,11 +16,11 @@ prerequisites:
 ## Quarto extensions
 
 You also need to install the Quarto extensions `fontawesome` and
-`nbis-course`:
+`nbis-course-quarto`:
 
 ```
 quarto add quarto-ext/fontawesome
-quarto add percyfal/nbis-course
+quarto add percyfal/nbis-course-quarto
 ```
 
 ## pre-commit
@@ -40,7 +40,7 @@ to initialize `pre-commit` hooks.
 Activate the `pixi` environment with `pixi shell` and run
 
 ```
-quarto preview --port 9999
+quarto preview
 ```
 
 to preview pages, and

@@ -1,5 +1,6 @@
 ---
 title: "About"
+format: nbis-course-html
 ---
 
 Systems thinking about planetary boundaries, energy, biodiversity and
