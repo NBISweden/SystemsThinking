@@ -281,12 +281,52 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxrender-0.9.12-hb9d3cd8_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxt-1.3.1-hb9d3cd8_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb8e6e7a_2.conda
+  lint:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    packages:
+      linux-64:
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-2_gnu.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-h4bc722e_7.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2025.4.26-hbd8a1cb_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/cffi-1.17.1-py313hfab6e84_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/cfgv-3.3.1-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/distlib-0.3.9-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/filelock-3.18.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/identify-2.6.10-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.43-h712a8e2_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.0-h5888daf_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libffi-3.4.6-h2dba641_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-14.2.0-h767d61c_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-14.2.0-h69a702a_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgomp-14.2.0-h767d61c_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/liblzma-5.8.1-hb9d3cd8_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libmpdec-4.0.0-h4bc722e_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libsqlite-3.49.1-hee588c1_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-14.2.0-h8f9b012_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.38.1-h0b41bf4_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/nodeenv-1.9.1-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.5.0-h7b32b05_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.3.7-pyh29332c3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pre-commit-4.2.0-pyha770c72_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pycparser-2.22-pyh29332c3_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.13.3-hf636f53_101_cp313.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.13-7_cp313.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/pyyaml-6.0.2-py313h8060acc_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.2-h8c095d6_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-80.1.0-pyhff2d567_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_h4845f30_101.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025b-h78e105d_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/ukkonen-1.0.1-py313h33d0bda_5.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/virtualenv-20.30.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/yaml-0.2.5-h7f98852_2.tar.bz2
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
   sha256: fe51de6107f9edc7aa4f786a70f4a883943bc9d39b3bb7307c04c41410990726
   md5: d7c89558ba9fa0495403155b64376d81
-  arch: x86_64
-  platform: linux
   license: None
   size: 2562
   timestamp: 1578324546067
@@ -299,8 +339,6 @@ packages:
   - libgomp >=7.5.0
   constrains:
   - openmp_impl 9999
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 23621
@@ -317,8 +355,6 @@ packages:
   depends:
   - ld_impl_linux-64 2.43 h712a8e2_4
   - sysroot_linux-64
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL
   size: 6111717
@@ -328,8 +364,6 @@ packages:
   md5: bfe52ddc809cff2e046781928d195400
   depends:
   - tk
-  arch: x86_64
-  platform: linux
   license: TCL
   size: 128999
   timestamp: 1733809692184
@@ -339,8 +373,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: bzip2-1.0.6
   license_family: BSD
   size: 252783
@@ -351,8 +383,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 206884
@@ -360,11 +390,17 @@ packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2025.1.31-hbcca054_0.conda
   sha256: bf832198976d559ab44d6cdb315642655547e26d826e34da67cbee6624cda189
   md5: 19f3a56f68d2fd06c516076bff482c52
-  arch: x86_64
-  platform: linux
   license: ISC
   size: 158144
   timestamp: 1738298224464
+- conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2025.4.26-hbd8a1cb_0.conda
+  sha256: 2a70ed95ace8a3f8a29e6cd1476a943df294a7111dfb3e152e3478c4c889b7ac
+  md5: 95db94f75ba080a22eb623590993167b
+  depends:
+  - __unix
+  license: ISC
+  size: 152283
+  timestamp: 1745653616541
 - conda: https://conda.anaconda.org/conda-forge/linux-64/cairo-1.18.4-h3394656_0.conda
   sha256: 3bd6a391ad60e471de76c0e9db34986c4b5058587fbf2efa5a7f54645e28c2c7
   md5: 09262e66b19567aff4f592fb53b28760
@@ -387,11 +423,34 @@ packages:
   - xorg-libx11 >=1.8.11,<2.0a0
   - xorg-libxext >=1.3.6,<2.0a0
   - xorg-libxrender >=0.9.12,<0.10.0a0
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-only or MPL-1.1
   size: 978114
   timestamp: 1741554591855
+- conda: https://conda.anaconda.org/conda-forge/linux-64/cffi-1.17.1-py313hfab6e84_0.conda
+  sha256: 73cd6199b143a8a6cbf733ce124ed57defc1b9a7eab9b10fd437448caf8eaa45
+  md5: ce6386a5892ef686d6d680c345c40ad1
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libffi >=3.4,<4.0a0
+  - libgcc >=13
+  - pycparser
+  - python >=3.13.0rc1,<3.14.0a0
+  - python_abi 3.13.* *_cp313
+  arch: x86_64
+  platform: linux
+  license: MIT
+  license_family: MIT
+  size: 295514
+  timestamp: 1725560706794
+- conda: https://conda.anaconda.org/conda-forge/noarch/cfgv-3.3.1-pyhd8ed1ab_1.conda
+  sha256: d5696636733b3c301054b948cdd793f118efacce361d9bd4afb57d5980a9064f
+  md5: 57df494053e17dce2ac3a0b33e1b2a2e
+  depends:
+  - python >=3.9
+  license: MIT
+  license_family: MIT
+  size: 12973
+  timestamp: 1734267180483
 - conda: https://conda.anaconda.org/conda-forge/linux-64/curl-8.13.0-h332b0f4_0.conda
   sha256: e01eab0947009ac3bd9f45b565ad7d821d2c7621d9394694a49e296c63ef680d
   md5: d50b765d509a4fe2e723b069266e17eb
@@ -404,12 +463,27 @@ packages:
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.4.1,<4.0a0
   - zstd >=1.5.7,<1.6.0a0
-  arch: x86_64
-  platform: linux
   license: curl
   license_family: MIT
   size: 182690
   timestamp: 1743601704972
+- conda: https://conda.anaconda.org/conda-forge/noarch/distlib-0.3.9-pyhd8ed1ab_1.conda
+  sha256: 0e160c21776bd881b79ce70053e59736f51036784fa43a50da10a04f0c1b9c45
+  md5: 8d88f4a2242e6b96f9ecff9a6a05b2f1
+  depends:
+  - python >=3.9
+  license: Apache-2.0
+  license_family: APACHE
+  size: 274151
+  timestamp: 1733238487461
+- conda: https://conda.anaconda.org/conda-forge/noarch/filelock-3.18.0-pyhd8ed1ab_0.conda
+  sha256: de7b6d4c4f865609ae88db6fa03c8b7544c2452a1aa5451eb7700aad16824570
+  md5: 4547b39256e296bb758166893e909a7c
+  depends:
+  - python >=3.9
+  license: Unlicense
+  size: 17887
+  timestamp: 1741969612334
 - conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-dejavu-sans-mono-2.37-hab24e00_0.tar.bz2
   sha256: 58d7f40d2940dd0a8aa28651239adbf5613254df0f75789919c4e6762054403b
   md5: 0c96522c6bdaed4b1566d11387caaf45
@@ -448,8 +522,6 @@ packages:
   - libgcc >=13
   - libuuid >=2.38.1,<3.0a0
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 265599
@@ -483,8 +555,6 @@ packages:
   - libgcc >=13
   - libpng >=1.6.47,<1.7.0a0
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-only OR FTL
   size: 639682
   timestamp: 1741863789964
@@ -493,8 +563,6 @@ packages:
   md5: ac7bc6a654f8f41b352b38f4051135f8
   depends:
   - libgcc-ng >=7.5.0
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1
   size: 114383
   timestamp: 1604416621168
@@ -509,8 +577,6 @@ packages:
   - libsanitizer 14.2.0 hed042b8_2
   - libstdcxx >=14.2.0
   - sysroot_linux-64
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 73545585
@@ -524,8 +590,6 @@ packages:
   - libgfortran5 >=14.2.0
   - libstdcxx >=14.2.0
   - sysroot_linux-64
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 16913298
@@ -536,8 +600,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
-  arch: x86_64
-  platform: linux
   license: LGPL-2.0-or-later
   license_family: LGPL
   size: 96855
@@ -549,8 +611,6 @@ packages:
   - libblas >=3.8.0,<4.0a0
   - libcblas >=3.8.0,<4.0a0
   - libgcc-ng >=9.3.0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-or-later
   license_family: GPL
   size: 3376423
@@ -563,8 +623,6 @@ packages:
   - libstdcxx-devel_linux-64 14.2.0 h9c4974d_102
   - sysroot_linux-64
   - tzdata
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 14611960
@@ -583,8 +641,6 @@ packages:
   - libglib >=2.84.1,<3.0a0
   - libstdcxx >=13
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 2029831
@@ -596,12 +652,20 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc-ng >=12
   - libstdcxx-ng >=12
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 12129203
   timestamp: 1720853576813
+- conda: https://conda.anaconda.org/conda-forge/noarch/identify-2.6.10-pyhd8ed1ab_0.conda
+  sha256: 02f47df6c6982b796aecb086b434627207e87c0a90a50226f11f2cc99c089770
+  md5: 8d5b9b702810fb3054d52ba146023bc3
+  depends:
+  - python >=3.9
+  - ukkonen
+  license: MIT
+  license_family: MIT
+  size: 79057
+  timestamp: 1745098917031
 - conda: https://conda.anaconda.org/conda-forge/noarch/kernel-headers_linux-64-3.10.0-he073ed8_18.conda
   sha256: a922841ad80bd7b222502e65c07ecb67e4176c4fa5b03678a005f39fcc98be4b
   md5: ad8527bf134a90e1c9ed35fa0b64318c
@@ -616,8 +680,6 @@ packages:
   md5: 30186d27e2c9fa62b45fb1476b7200e3
   depends:
   - libgcc-ng >=10.3.0
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-or-later
   size: 117831
   timestamp: 1646151697040
@@ -631,8 +693,6 @@ packages:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
   - openssl >=3.3.1,<4.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1370023
@@ -644,8 +704,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   constrains:
   - binutils_impl_linux-64 2.43
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL
   size: 671240
@@ -656,8 +714,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
-  arch: x86_64
-  platform: linux
   license: Apache-2.0
   license_family: Apache
   size: 281798
@@ -675,8 +731,6 @@ packages:
   - blas =2.131=openblas
   - mkl <2025
   - libcblas =3.9.0=31*_openblas
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 16859
@@ -691,8 +745,6 @@ packages:
   - liblapacke =3.9.0=31*_openblas
   - liblapack =3.9.0=31*_openblas
   - blas =2.131=openblas
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 16796
@@ -709,8 +761,6 @@ packages:
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.4.1,<4.0a0
   - zstd >=1.5.7,<1.6.0a0
-  arch: x86_64
-  platform: linux
   license: curl
   license_family: MIT
   size: 438088
@@ -721,8 +771,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 72255
@@ -735,8 +783,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - ncurses >=6.5,<7.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-2-Clause
   license_family: BSD
   size: 134676
@@ -746,8 +792,6 @@ packages:
   md5: 172bf1cd1ff8629f2b1179945ed45055
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: BSD-2-Clause
   license_family: BSD
   size: 112766
@@ -760,8 +804,6 @@ packages:
   - libgcc >=13
   constrains:
   - expat 2.7.0.*
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 74427
@@ -772,8 +814,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 57433
@@ -787,8 +827,6 @@ packages:
   constrains:
   - libgomp 14.2.0 h767d61c_2
   - libgcc-ng ==14.2.0=*_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 847885
@@ -807,8 +845,6 @@ packages:
   md5: a2222a6ada71fb478682efe483ce0f92
   depends:
   - libgcc 14.2.0 h767d61c_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 53758
@@ -820,8 +856,6 @@ packages:
   - libgfortran5 14.2.0 hf1ad2bd_2
   constrains:
   - libgfortran-ng ==14.2.0=*_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 53733
@@ -831,8 +865,6 @@ packages:
   md5: 4056c857af1a99ee50589a941059ec55
   depends:
   - libgfortran 14.2.0 h69a702a_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 53781
@@ -845,8 +877,6 @@ packages:
   - libgcc >=14.2.0
   constrains:
   - libgfortran 14.2.0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 1461978
@@ -862,8 +892,6 @@ packages:
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.4.0,<4.0a0
   - pcre2 >=10.44,<10.45.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-only WITH GCC-exception-2.0
   license_family: GPL
   size: 891706
@@ -880,8 +908,6 @@ packages:
   - pcre2 >=10.44,<10.45.0a0
   constrains:
   - glib 2.84.1 *_0
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-or-later
   size: 3947789
   timestamp: 1743773764878
@@ -890,8 +916,6 @@ packages:
   md5: 06d02030237f4d5b3d9a7e7d348fe3c6
   depends:
   - __glibc >=2.17,<3.0.a0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 459862
@@ -902,8 +926,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-only
   size: 713084
   timestamp: 1740128065462
@@ -914,8 +936,6 @@ packages:
   - libgcc-ng >=12
   constrains:
   - jpeg <0.0.0a
-  arch: x86_64
-  platform: linux
   license: IJG AND BSD-3-Clause AND Zlib
   size: 618575
   timestamp: 1694474974816
@@ -929,8 +949,6 @@ packages:
   - libcblas =3.9.0=31*_openblas
   - liblapacke =3.9.0=31*_openblas
   - blas =2.131=openblas
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 16790
@@ -941,8 +959,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: 0BSD
   size: 112709
   timestamp: 1743771086123
@@ -952,8 +968,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: BSD-2-Clause
   license_family: BSD
   size: 89991
@@ -970,8 +984,6 @@ packages:
   - libstdcxx >=13
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.3.2,<4.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 647599
@@ -986,8 +998,6 @@ packages:
   - libgfortran5 >=14.2.0
   constrains:
   - openblas >=0.3.29,<0.3.30.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 5919288
@@ -999,8 +1009,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: zlib-acknowledgement
   size: 288701
   timestamp: 1739952993639
@@ -1011,8 +1019,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=14.2.0
   - libstdcxx >=14.2.0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 4507944
@@ -1024,8 +1030,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: Unlicense
   size: 918664
   timestamp: 1742083674731
@@ -1037,8 +1041,6 @@ packages:
   - libgcc >=13
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.4.0,<4.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 304278
@@ -1049,8 +1051,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc 14.2.0 h767d61c_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 3884556
@@ -1069,8 +1069,6 @@ packages:
   md5: c75da67f045c2627f59e6fcb5f4e3a9b
   depends:
   - libstdcxx 14.2.0 h8f9b012_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 53830
@@ -1089,8 +1087,6 @@ packages:
   - libwebp-base >=1.4.0,<2.0a0
   - libzlib >=1.3.1,<2.0a0
   - zstd >=1.5.6,<1.6.0a0
-  arch: x86_64
-  platform: linux
   license: HPND
   size: 428173
   timestamp: 1734398813264
@@ -1099,8 +1095,6 @@ packages:
   md5: 40b61aab5c7ba9ff276c41cfffe6b80b
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 33601
@@ -1111,8 +1105,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 891272
@@ -1125,8 +1117,6 @@ packages:
   - libgcc >=13
   constrains:
   - libwebp 1.5.0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 429973
@@ -1140,8 +1130,6 @@ packages:
   - pthread-stubs
   - xorg-libxau >=1.0.11,<2.0a0
   - xorg-libxdmcp
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 395888
@@ -1156,8 +1144,6 @@ packages:
   - libiconv >=1.18,<2.0a0
   - liblzma >=5.8.1,<6.0a0
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 692101
@@ -1170,8 +1156,6 @@ packages:
   - libgcc >=13
   constrains:
   - zlib 1.3.1 *_2
-  arch: x86_64
-  platform: linux
   license: Zlib
   license_family: Other
   size: 60963
@@ -1182,8 +1166,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-or-later
   license_family: GPL
   size: 513088
@@ -1194,14 +1176,33 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: X11 AND BSD-3-Clause
   size: 891641
   timestamp: 1738195959188
+- conda: https://conda.anaconda.org/conda-forge/noarch/nodeenv-1.9.1-pyhd8ed1ab_1.conda
+  sha256: 3636eec0e60466a00069b47ce94b6d88b01419b6577d8e393da44bb5bc8d3468
+  md5: 7ba3f09fceae6a120d664217e58fe686
+  depends:
+  - python >=3.9
+  - setuptools
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 34574
+  timestamp: 1734112236147
 - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.5.0-h7b32b05_0.conda
   sha256: 38285d280f84f1755b7c54baf17eccf2e3e696287954ce0adca16546b85ee62c
   md5: bb539841f2a3fde210f387d00ed4bb9d
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - ca-certificates
+  - libgcc >=13
+  license: Apache-2.0
+  license_family: Apache
+  size: 3121673
+  timestamp: 1744132167438
+- conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.5.0-h7b32b05_1.conda
+  sha256: b4491077c494dbf0b5eaa6d87738c22f2154e9277e5293175ec187634bd808a0
+  md5: de356753cfdbffcde5bb1e86e3aa6cd0
   depends:
   - __glibc >=2.17,<3.0.a0
   - ca-certificates
@@ -1210,13 +1211,11 @@ packages:
   platform: linux
   license: Apache-2.0
   license_family: Apache
-  size: 3121673
-  timestamp: 1744132167438
+  size: 3117410
+  timestamp: 1746223723843
 - conda: https://conda.anaconda.org/conda-forge/linux-64/pandoc-3.6.4-ha770c72_0.conda
   sha256: 16cbcab8a6d9a0cef47b9d3ebeced8a1a75ee54d379649e6260a333d1b2f743c
   md5: 53f2cd4128fa7053bb029bbeafbe3f2e
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL
   size: 21328263
@@ -1237,8 +1236,6 @@ packages:
   - libglib >=2.84.0,<3.0a0
   - libpng >=1.6.47,<1.7.0a0
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-or-later
   size: 453100
   timestamp: 1743352484196
@@ -1250,8 +1247,6 @@ packages:
   - bzip2 >=1.0.8,<2.0a0
   - libgcc-ng >=12
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 952308
@@ -1263,24 +1258,54 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - libstdcxx >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 381072
   timestamp: 1733698987122
+- conda: https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.3.7-pyh29332c3_0.conda
+  sha256: ae7d3e58224d53d6b59e1f5ac5809803bb1972f0ac4fb10cd9b8c87d4122d3e0
+  md5: e57da6fe54bb3a5556cf36d199ff07d8
+  depends:
+  - python >=3.9
+  - python
+  license: MIT
+  license_family: MIT
+  size: 23291
+  timestamp: 1742485085457
+- conda: https://conda.anaconda.org/conda-forge/noarch/pre-commit-4.2.0-pyha770c72_0.conda
+  sha256: d0bd8cce5f31ae940934feedec107480c00f67e881bf7db9d50c6fc0216a2ee0
+  md5: 17e487cc8b5507cd3abc09398cf27949
+  depends:
+  - cfgv >=2.0.0
+  - identify >=1.0.0
+  - nodeenv >=0.11.1
+  - python >=3.9
+  - pyyaml >=5.1
+  - virtualenv >=20.10.0
+  license: MIT
+  license_family: MIT
+  size: 195854
+  timestamp: 1742475656293
 - conda: https://conda.anaconda.org/conda-forge/linux-64/pthread-stubs-0.4-hb9d3cd8_1002.conda
   sha256: 9c88f8c64590e9567c6c80823f0328e58d3b1efb0e1c539c0315ceca764e0973
   md5: b3c17d95b5a10c6e64a21fa17573e70e
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 8252
   timestamp: 1726802366959
+- conda: https://conda.anaconda.org/conda-forge/noarch/pycparser-2.22-pyh29332c3_1.conda
+  sha256: 79db7928d13fab2d892592223d7570f5061c192f27b9febd1a418427b719acc6
+  md5: 12c566707c80111f9799308d9e265aef
+  depends:
+  - python >=3.9
+  - python
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 110100
+  timestamp: 1733195786147
 - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.13.3-hf636f53_101_cp313.conda
   build_number: 101
   sha256: eecb11ea60f8143deeb301eab2e04d04f7acb83659bb20fdfeacd431a5f31168
@@ -1303,8 +1328,6 @@ packages:
   - readline >=8.2,<9.0a0
   - tk >=8.6.13,<8.7.0a0
   - tzdata
-  arch: x86_64
-  platform: linux
   license: Python-2.0
   size: 33268245
   timestamp: 1744665022734
@@ -1315,12 +1338,35 @@ packages:
   md5: ef1d8e55d61220011cceed0b94a920d2
   constrains:
   - python 3.13.* *_cp313
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 6858
   timestamp: 1743483201023
+- conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.13-7_cp313.conda
+  build_number: 7
+  sha256: 0595134584589064f56e67d3de1d8fcbb673a972946bce25fb593fb092fdcd97
+  md5: e84b44e6300f1703cb25d29120c5b1d8
+  constrains:
+  - python 3.13.* *_cp313
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 6988
+  timestamp: 1745258852285
+- conda: https://conda.anaconda.org/conda-forge/linux-64/pyyaml-6.0.2-py313h8060acc_2.conda
+  sha256: 6826217690cfe92d6d49cdeedb6d63ab32f51107105d6a459d30052a467037a0
+  md5: 50992ba61a8a1f8c2d346168ae1c86df
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=13
+  - python >=3.13,<3.14.0a0
+  - python_abi 3.13.* *_cp313
+  - yaml >=0.2.5,<0.3.0a0
+  arch: x86_64
+  platform: linux
+  license: MIT
+  license_family: MIT
+  size: 205919
+  timestamp: 1737454783637
 - conda: https://conda.anaconda.org/conda-forge/noarch/r-4.4-r44hd8ed1ab_1008.conda
   sha256: 676f2dd61283b86922e3b1e5d5b96955375e1151bec2363a6618dee1883e0016
   md5: bb1a3299b435f7226481d9ebccbaa0a7
@@ -1339,8 +1385,6 @@ packages:
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
   - r-sys >=2.1
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 31675
@@ -1360,8 +1404,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 130529
@@ -1411,8 +1453,6 @@ packages:
   - tktable
   - tzdata >=2024a
   - xorg-libxt
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL
   size: 27107339
@@ -1423,8 +1463,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 45961
@@ -1436,8 +1474,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 621919
@@ -1450,8 +1486,6 @@ packages:
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
   - r-bit >=4.0.0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-only
   license_family: GPL2
   size: 504289
@@ -1491,8 +1525,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 43888
@@ -1544,8 +1576,6 @@ packages:
   - r-base >=4.4,<4.5.0a0
   - r-fastmap
   - r-rlang
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 76353
@@ -1580,8 +1610,6 @@ packages:
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
   - r-mass
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 109123
@@ -1594,8 +1622,6 @@ packages:
   - libgcc >=13
   - libstdcxx >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1306926
@@ -1618,8 +1644,6 @@ packages:
   - libgfortran
   - libgfortran5 >=13.3.0
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 589860
@@ -1640,8 +1664,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 2533978
@@ -1653,8 +1675,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-2-Clause
   license_family: BSD
   size: 137810
@@ -1724,8 +1744,6 @@ packages:
   - libcurl >=8.12.1,<9.0a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 473766
@@ -1739,8 +1757,6 @@ packages:
   - libgcc >=13
   - libzlib >=1.3.1,<2.0a0
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MPL-2.0
   license_family: OTHER
   size: 2327423
@@ -1828,8 +1844,6 @@ packages:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
   - r-crayon >=1.3.2
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 990441
@@ -1842,8 +1856,6 @@ packages:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 217476
@@ -1886,8 +1898,6 @@ packages:
   - r-tibble >=2.1.3
   - r-tidyselect >=1.1.0
   - r-vctrs >=0.3.5
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1424722
@@ -1918,8 +1928,6 @@ packages:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
   - r-rlang >=0.3.0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 43503
@@ -1939,8 +1947,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 326083
@@ -1952,8 +1958,6 @@ packages:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1429247
@@ -1965,8 +1969,6 @@ packages:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 73299
@@ -2006,8 +2008,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 269552
@@ -2029,8 +2029,6 @@ packages:
   - libgcc >=13
   - libstdcxx >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 511125
@@ -2077,8 +2075,6 @@ packages:
   - r-openssl >=2.0.3
   - r-rstudioapi >=0.11
   - r-zip >=2.1.0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 264437
@@ -2148,8 +2144,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 165384
@@ -2222,8 +2216,6 @@ packages:
   - r-rlang
   - r-stringr
   - r-xml2
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 348289
@@ -2259,8 +2251,6 @@ packages:
   - r-tibble
   - r-tidyselect
   - r-vctrs >=0.3.0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 372234
@@ -2285,8 +2275,6 @@ packages:
   - libgfortran5 >=13.3.0
   - r-base >=4.4,<4.5.0a0
   - r-lattice
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-only
   license_family: GPL2
   size: 1592076
@@ -2327,8 +2315,6 @@ packages:
   - r-ellipsis
   - r-fastmap >=1.1.0
   - r-rlang >=0.4.10
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 366312
@@ -2359,8 +2345,6 @@ packages:
   - r-promises
   - r-r6
   - r-rcpp >=1.0.7
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 519793
@@ -2426,8 +2410,6 @@ packages:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1626356
@@ -2440,8 +2422,6 @@ packages:
   - libgcc >=13
   - libjpeg-turbo >=3.0.0,<4.0a0
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 57156
@@ -2463,8 +2443,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 638391
@@ -2502,8 +2480,6 @@ packages:
   - libgfortran
   - libgfortran5 >=13.3.0
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: Unlimited
   license_family: MIT
   size: 102373
@@ -2540,8 +2516,6 @@ packages:
   - r-base >=4.4,<4.5.0a0
   - r-rcpp >=0.12.9
   - r-rlang
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 155227
@@ -2564,8 +2538,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 1382349
@@ -2576,8 +2548,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL3
   size: 161040
@@ -2614,8 +2584,6 @@ packages:
   - r-base >=4.4,<4.5.0a0
   - r-generics
   - r-timechange >=0.1.1
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 983665
@@ -2626,8 +2594,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 211539
@@ -2650,8 +2616,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 1138286
@@ -2666,8 +2630,6 @@ packages:
   - liblapack >=3.9.0,<4.0a0
   - r-base >=4.4,<4.5.0a0
   - r-lattice
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 4159241
@@ -2695,8 +2657,6 @@ packages:
   - r-base >=4.4,<4.5.0a0
   - r-matrix
   - r-nlme >=3.1_64
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 3417049
@@ -2708,8 +2668,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL
   size: 64659
@@ -2761,8 +2719,6 @@ packages:
   - libgfortran5 >=13.3.0
   - r-base >=4.4,<4.5.0a0
   - r-lattice
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 2353172
@@ -2775,8 +2731,6 @@ packages:
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
   - r-mass
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 131558
@@ -2790,8 +2744,6 @@ packages:
   - openssl >=3.4.1,<4.0a0
   - r-askpass
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 688336
@@ -2924,8 +2876,6 @@ packages:
   - libgcc-ng >=12
   - libpng >=1.6.43,<1.7.0a0
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-only OR GPL-3.0-only
   license_family: GPL3
   size: 60588
@@ -2959,8 +2909,6 @@ packages:
   - r-base >=4.4,<4.5.0a0
   - r-ps >=1.2.0
   - r-r6
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 339492
@@ -2977,8 +2925,6 @@ packages:
   - r-rlang >=0.4.9
   - r-stringr
   - r-vctrs
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL3
   size: 229503
@@ -3010,8 +2956,6 @@ packages:
   - r-r6
   - r-rcpp
   - r-rlang
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1596559
@@ -3023,8 +2967,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 408223
@@ -3041,8 +2983,6 @@ packages:
   - r-magrittr >=1.5
   - r-rlang >=0.4.10
   - r-vctrs >=0.5
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 533303
@@ -3071,8 +3011,6 @@ packages:
   - r-base >=4.4,<4.5.0a0
   - r-systemfonts >=1.0.3
   - r-textshaping >=0.3.0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 541735
@@ -3083,8 +3021,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 53317
@@ -3127,8 +3063,6 @@ packages:
   - libgcc >=13
   - libstdcxx >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 2049775
@@ -3142,8 +3076,6 @@ packages:
   - libstdcxx >=13
   - r-base >=4.4,<4.5.0a0
   - r-rcpp >=0.11.5
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 224318
@@ -3167,8 +3099,6 @@ packages:
   - r-tibble
   - r-tzdb >=0.1.1
   - r-vroom >=1.5.4
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 810881
@@ -3186,8 +3116,6 @@ packages:
   - r-cpp11 >=0.4.0
   - r-progress
   - r-tibble >=2.0.1
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 366821
@@ -3282,8 +3210,6 @@ packages:
   - r-rcpptoml
   - r-rlang
   - r-withr
-  arch: x86_64
-  platform: linux
   license: Apache-2.0
   license_family: APACHE
   size: 1880973
@@ -3296,8 +3222,6 @@ packages:
   - libgcc >=13
   - libstdcxx >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL3
   size: 1569704
@@ -3343,8 +3267,6 @@ packages:
   - r-stringi
   - r-stringr >=1.0.0
   - r-xml2
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: GPL3
   size: 690848
@@ -3356,8 +3278,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 705094
@@ -3424,8 +3344,6 @@ packages:
   - r-r6
   - r-rappdirs
   - r-rlang
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 2300528
@@ -3503,8 +3421,6 @@ packages:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 55008
@@ -3516,8 +3432,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 155355
@@ -3531,8 +3445,6 @@ packages:
   - libgcc >=13
   - libstdcxx >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: FOSS
   license_family: OTHER
   size: 932878
@@ -3561,8 +3473,6 @@ packages:
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
   - r-matrix
-  arch: x86_64
-  platform: linux
   license: LGPL-2.0-or-later
   license_family: LGPL
   size: 8275782
@@ -3577,8 +3487,6 @@ packages:
   - libstdcxx-ng >=12
   - r-base >=4.4,<4.5.0a0
   - r-systemfonts >=1.0.0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL3
   size: 216628
@@ -3590,8 +3498,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 49700
@@ -3608,8 +3514,6 @@ packages:
   - r-cpp11 >=0.2.1
   - r-jsonlite
   - r-lifecycle
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 319969
@@ -3641,8 +3545,6 @@ packages:
   - r-rlang >=0.4.1
   - r-waldo >=0.2.1
   - r-withr >=2.0.0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1663101
@@ -3662,8 +3564,6 @@ packages:
   - r-lifecycle
   - r-stringi
   - r-systemfonts >=1.1.0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 185231
@@ -3682,8 +3582,6 @@ packages:
   - r-pkgconfig
   - r-rlang >=1.0.2
   - r-vctrs >=0.4.2
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 617446
@@ -3707,8 +3605,6 @@ packages:
   - r-tibble >=2.1.1
   - r-tidyselect >=1.2.0
   - r-vctrs >=0.5.2
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1124619
@@ -3775,8 +3671,6 @@ packages:
   - libstdcxx-ng >=12
   - r-base >=4.4,<4.5.0a0
   - r-cpp11 >=0.2.7
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only AND Apache-2.0
   license_family: GPL3
   size: 192665
@@ -3800,8 +3694,6 @@ packages:
   - libstdcxx >=13
   - r-base >=4.4,<4.5.0a0
   - r-cpp11 >=0.5.2
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 552837
@@ -3853,8 +3745,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: Apache-2.0
   license_family: APACHE
   size: 144010
@@ -3866,8 +3756,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 55685
@@ -3884,8 +3772,6 @@ packages:
   - r-glue
   - r-lifecycle >=1.0.3
   - r-rlang >=1.0.6
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1263183
@@ -3933,8 +3819,6 @@ packages:
   - r-tzdb >=0.1.1
   - r-vctrs >=0.2.0
   - r-withr
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 873532
@@ -3993,8 +3877,6 @@ packages:
   - libgcc >=13
   - libstdcxx >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 590125
@@ -4012,8 +3894,6 @@ packages:
   - r-base >=4.4,<4.5.0a0
   - r-cli
   - r-rlang >=1.1.0
-  arch: x86_64
-  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL2
   size: 351281
@@ -4044,8 +3924,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc-ng >=12
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 119482
@@ -4057,8 +3935,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - r-base >=4.4,<4.5.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: CC
   size: 152707
@@ -4069,8 +3945,6 @@ packages:
   depends:
   - libgcc >=13
   - ncurses >=6.5,<7.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL
   size: 282480
@@ -4080,11 +3954,18 @@ packages:
   md5: 7362f0042e95681f5d371c46c83ebd08
   depends:
   - libgcc-ng >=7.5.0
-  arch: x86_64
-  platform: linux
   license: GPL-3
   size: 270762
   timestamp: 1605307395873
+- conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-80.1.0-pyhff2d567_0.conda
+  sha256: 777d34ed359cedd5a5004c930077c101bb3b70e5fbb04d29da5058d75b0ba487
+  md5: f6f72d0837c79eaec77661be43e8a691
+  depends:
+  - python >=3.9
+  license: MIT
+  license_family: MIT
+  size: 778484
+  timestamp: 1746085063737
 - conda: https://conda.anaconda.org/conda-forge/noarch/sysroot_linux-64-2.17-h0157908_18.conda
   sha256: 69ab5804bdd2e8e493d5709eebff382a72fab3e9af6adf93a237ccf8f7dbd624
   md5: 460eba7851277ec1fd80a1a24080787a
@@ -4101,8 +3982,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - libzlib >=1.2.13,<2.0.0a0
-  arch: x86_64
-  platform: linux
   license: TCL
   license_family: BSD
   size: 3318875
@@ -4113,8 +3992,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - tk >=8.6.13,<8.7.0a0
-  arch: x86_64
-  platform: linux
   license: TCL
   size: 91641
   timestamp: 1719242648005
@@ -4124,6 +4001,34 @@ packages:
   license: LicenseRef-Public-Domain
   size: 122968
   timestamp: 1742727099393
+- conda: https://conda.anaconda.org/conda-forge/linux-64/ukkonen-1.0.1-py313h33d0bda_5.conda
+  sha256: 4edcb6a933bb8c03099ab2136118d5e5c25285e3fd2b0ff0fa781916c53a1fb7
+  md5: 5bcffe10a500755da4a71cc0fb62a420
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - cffi
+  - libgcc >=13
+  - libstdcxx >=13
+  - python >=3.13.0rc1,<3.14.0a0
+  - python_abi 3.13.* *_cp313
+  arch: x86_64
+  platform: linux
+  license: MIT
+  license_family: MIT
+  size: 13916
+  timestamp: 1725784177558
+- conda: https://conda.anaconda.org/conda-forge/noarch/virtualenv-20.30.0-pyhd8ed1ab_0.conda
+  sha256: 1dbb24b144f7b8400b30cca760cdee1b7de61716cd7f06d7ea82b741645823ce
+  md5: c0e0b4a09aa5a698a1bdd4ebfe28be38
+  depends:
+  - distlib >=0.3.7,<1
+  - filelock >=3.12.2,<4
+  - platformdirs >=3.9.1,<5
+  - python >=3.9
+  license: MIT
+  license_family: MIT
+  size: 3635535
+  timestamp: 1743474070226
 - conda: https://conda.anaconda.org/conda-forge/noarch/xlrd-2.0.1-pyhd8ed1ab_3.tar.bz2
   sha256: a97030fc6cde1a335c035392db47efdb4add7d1db76a11b4bfac6ec7fc42bfe5
   md5: 97dfcd5ff030d829b55f67e82f928093
@@ -4139,8 +4044,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 58628
@@ -4153,8 +4056,6 @@ packages:
   - libgcc >=13
   - libuuid >=2.38.1,<3.0a0
   - xorg-libice >=1.1.2,<2.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 27590
@@ -4166,8 +4067,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - libxcb >=1.17.0,<2.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 835896
@@ -4178,8 +4077,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 14780
@@ -4190,8 +4087,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 19901
@@ -4203,8 +4098,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - xorg-libx11 >=1.8.10,<2.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 50060
@@ -4216,8 +4109,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - xorg-libx11 >=1.8.10,<2.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 33005
@@ -4231,12 +4122,21 @@ packages:
   - xorg-libice >=1.1.1,<2.0a0
   - xorg-libsm >=1.2.4,<2.0a0
   - xorg-libx11 >=1.8.10,<2.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 379686
   timestamp: 1731860547604
+- conda: https://conda.anaconda.org/conda-forge/linux-64/yaml-0.2.5-h7f98852_2.tar.bz2
+  sha256: a4e34c710eeb26945bdbdaba82d3d74f60a78f54a874ec10d373811a5d217535
+  md5: 4cb3ad778ec2d5a7acbdf254eb1c42ae
+  depends:
+  - libgcc-ng >=9.4.0
+  arch: x86_64
+  platform: linux
+  license: MIT
+  license_family: MIT
+  size: 89141
+  timestamp: 1641346969816
 - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb8e6e7a_2.conda
   sha256: a4166e3d8ff4e35932510aaff7aa90772f84b4d07e9f6f83c614cba7ceefe0eb
   md5: 6432cb5d4ac0046c3ac0a8a0f95842f9
@@ -4245,8 +4145,6 @@ packages:
   - libgcc >=13
   - libstdcxx >=13
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 567578

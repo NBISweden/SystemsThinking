@@ -23,17 +23,16 @@ quarto add quarto-ext/fontawesome
 quarto add percyfal/nbis-course-quarto
 ```
 
-## pre-commit
+## Linting
 
-It is recommended that you setup `pre-commit` for linting and for
-preventing the mistaken addition of large files, among other things.
-Run
+The manifest contains a task called `lint` which will run code
+linters, such as `pre-commit`, on the source code. Run
 
 ```
-pixi run pre-commit
+pixi run lint
 ```
 
-to initialize `pre-commit` hooks.
+to run the `lint` task list.
 
 # Running Quarto
 
