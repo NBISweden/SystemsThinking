@@ -26,6 +26,10 @@ jobs:
         with:
           tinytex: true
 
+      - name: Install dvisvgm
+        run: |
+          sudo apt-get install dvisvgm
+  
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
