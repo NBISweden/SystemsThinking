@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "events/ystad2025/menti.html#about-the-questions",
+    "href": "events/ystad2025/menti.html#about-the-questions",
+    "title": "Mentimeter session",
+    "section": "About the questions",
+    "text": "About the questions\nAt times the questions are deliberately vague and background information has been left out. You have to make your own assumptions about what things are relevant to the question at hand."
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#energy-narratives",
+    "href": "events/ystad2025/menti.html#energy-narratives",
+    "title": "Mentimeter session",
+    "section": "Energy narratives",
+    "text": "Energy narratives\n\n\n\n\n\n\nMetea Pv Magazine USA, 2025\n\n\n\n\n\n\nPress CNN, 2025"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#energy-narratives-1",
+    "href": "events/ystad2025/menti.html#energy-narratives-1",
+    "title": "Mentimeter session",
+    "section": "Energy narratives",
+    "text": "Energy narratives\n\n\n\n\n\n\n\n\n\nWhat Is the Clean Energy Transition?  National Grid Group n.d.\n\n\n\nNations United Nations, n.d."
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#energy-menti",
+    "href": "events/ystad2025/menti.html#energy-menti",
+    "title": "Mentimeter session",
+    "section": "Energy menti",
+    "text": "Energy menti\n\n\n\n\n\n\n\nGoal of menti: show\n\nno transition has taken place\nthe size of our energy use\nhow quick the growth is\npoint out that it takes energy to get energy\n\nDiscussion slides\n\nHuman labor contained in one barrel of oil:\n\nHuman work: 0.6 kWh/dayOne barrel of oil: 1700 kWh\n1700/0.6 ~ 2800 days ~ 11 years (working ~260 days per year)\n\nShovel vs machine comparison\n\nAssuming a human uses 300 kcal/hour and moves 0.34 m3\nA John Deere uses 273,312 kcal/hour and moves 101.93 m3\nBagger 293 uses 16.5 MW/hour and moves 14,158 m3\nThe human wins at 0.271 m3 / MJ, Bagger 293 is second with 0.238 m3 / MJ and John Deere last at 0.089 m3 / MJ\n\nstacked graph of historical energy use by type (oil/coal/…)\npoint out that the peak question has two answers, one for relative use, one for absolute. The point is to highlight that we keep adding energy to the mix, we’re not replacing; there is no energy transition\non the future of increased use:\n\ngraph of global total energy use, point out that we’re at 19TW now, and extend it 2-300 years into the future - this could be a good point to introduce the rule of 70; first the graph is until today, ask what they think it will be in year 2100, introduce rule of 70, extend the x axis\n\nthis s Tom Murphy’s planetary energy plot\n\nnon-renewables: point out the maybe not so obvious fact that they generate heat =&gt; 19TW negligible, 500TW =&gt; 1W/m2, equivalent to today’s radiative forcing (at XXXW we would - literally - boil the water of the planet). Asimov makes this point in some book, find ref.\nyes, the energy flow from the sun is 10000 times higher than our current use =&gt; energy is abundant?\n\nshow Smil’s graph of energy flows (sankey diagram of sun -&gt; earth) -&gt; much of the primary energy is lost, only 87000 TW reaches Earth’ssurface\nhowever, biosphere energy use is 100 TW - why not higher?\nmuch of the energy is used by Earth to do stuff; make winds, currents, (see Antonio Turiel): if we tamper with this will have unintended downstream consequences (find article on solar panels on Arabic peninsula that have affeceted precipitation)\nrenewables require much space\n\n\nMarion King Hubbert’s figure 30? utopian future vision of energy - also hints at the carbon pulse\non EROI - it takes energy to get energy? Drake well vs Deep water horizon? Could fit better under economy and efficiency and the segue to technological advances"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#global-primary-energy-consumption-by-source",
+    "href": "events/ystad2025/menti.html#global-primary-energy-consumption-by-source",
+    "title": "Mentimeter session",
+    "section": "Global primary energy consumption by source",
+    "text": "Global primary energy consumption by source"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#global-primary-energy-consumption-by-source-1",
+    "href": "events/ystad2025/menti.html#global-primary-energy-consumption-by-source-1",
+    "title": "Mentimeter session",
+    "section": "Global primary energy consumption by source",
+    "text": "Global primary energy consumption by source\n\n\n\n\n\nSee https://ourworldindata.org/energy-mix#it-s-the-total-amount-of-fossil-fuels-we-burn-that-matters-and-we-continue-to-burn-more-each-year\nThey claim that “we need to displace existing fossil fuels in the energy mix much faster”, despite the evidence that this is not happening at all.\nQuote Fressot: that all energy types are increasing is a trivial observation; the question is why they are increasing. His thesis is that there is a symbiosis between energy types (steel is required to transport oil, for steel more coal is needed etc)"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#our-energy-history",
+    "href": "events/ystad2025/menti.html#our-energy-history",
+    "title": "Mentimeter session",
+    "section": "Our energy history",
+    "text": "Our energy history\n\n\n\nMurphy et al. Energy Research & Social Science, 81, 102239, 2021"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#our-energy-future",
+    "href": "events/ystad2025/menti.html#our-energy-future",
+    "title": "Mentimeter session",
+    "section": "Our energy future(?)",
+    "text": "Our energy future(?)\n\n\n\n\n\nPower demand assuming 2.3% growth on a logarithmic plot. In 275, 345, and 400 years, we demand all the sunlight hitting land and then the earth, assuming 20%, 100%, and 100% conversion efficiencies, respectively. In 1350 years, we use as all power of the sun. In 2450 years, we use all stars in the Milky Way galaxy. Vertical notes provide historical perspective on how distant these benchmarks are in the context of civilization.\n\n\nMurphy, Tom 2011"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#our-energy-budget",
+    "href": "events/ystad2025/menti.html#our-energy-budget",
+    "title": "Mentimeter session",
+    "section": "Our energy budget",
+    "text": "Our energy budget\n\n\n\n\n\nDeepwater horizon\n\n\n\n\n\nAlestig Dagens Nyheter, 2025"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#economy-narratives",
+    "href": "events/ystad2025/menti.html#economy-narratives",
+    "title": "Mentimeter session",
+    "section": "Economy narratives",
+    "text": "Economy narratives\n\n\n\n\nMason & editor The Guardian, 2022\n\n\n\n\nSveriges Radio 2024"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#economy-menti",
+    "href": "events/ystad2025/menti.html#economy-menti",
+    "title": "Mentimeter session",
+    "section": "Economy menti",
+    "text": "Economy menti"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#how-does-an-economist-bake-bread",
+    "href": "events/ystad2025/menti.html#how-does-an-economist-bake-bread",
+    "title": "Mentimeter session",
+    "section": "How does an economist bake bread?",
+    "text": "How does an economist bake bread?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBritish investor Jeremy Grantham on eternal growth Grantham, n.d.\n\n… to allow economics 20 more years to get the point that to make bread you need wheat and heat, in addition to labor and capital. Mainstream economics decided back in the 1950s to basically ignore the limits imposed by natural resources and environmental services, including the downsides of waste products. …\n\n\n\n\nEconomist response; Paul Krugman Krugman, The New York Times, 2014\n\nAnd you sometimes see hard scientists making arguments along the same lines, largely (I think) because they don’t understand what economic growth means. They think of it as a crude, physical thing, a matter simply of producing more stuff, and don’t take into account the many choices — about what to consume, about which technologies to use — that go into producing a dollar’s worth of G.D.P.\n\n\n\n\nQuote on the unimportance of energy, materials: https://growthecon.com/StudyGuide/solow/production.html\n\nNotice that I didn’t include anything explicit about natural resources or raw materials here. We could, but they tend to not be as important for growth in real GDP as we think. For the time being we’ll leave them out, and later on can incorporate information about them into the production function.\n\nKrugman quote Krugman, The New York Times, 2014:\n\nAnd you sometimes see hard scientists making arguments along the same lines, largely (I think) because they don’t understand what economic growth means. They think of it as a crude, physical thing, a matter simply of producing more stuff, and don’t take into account the many choices — about what to consume, about which technologies to use — that go into producing a dollar’s worth of G.D.P.\n\nGood comment:\n\nI beg to differ. I have a dual degree in engineering and economics. I used to believe the free-market dogma. I did very well in my economics classes. However, it was studying real science that opened my eyes. This has nothing to do with ideology and everything to do with science. You can’t decouple economic growth from growth in the consumption of natural resources and not a single economist has been able to prove that you can. It defies common sense (not to mention the basic laws of physics) to expect that something can grow infinitely within finite, constrained system. Many of our key resources, like metals, exist in fixed supply. How in the world do you reconcile that with a system that requires endless growth?\n\nGrantham Grantham, n.d.\n\nI say 90 years to allow economics 20 more years to get the point that to make bread you need wheat and heat, in addition to labor and capital. Mainstream economics decided back in the 1950s to basically ignore the limits imposed by natural resources and environmental services, including the downsides of waste products. In their methodology, capital, labor (and innovation, if you insist) were always going to be enough. Externalities were ignored and considered outside their equilibriums. ‘It’s only a question of price,’ although quite soon, that may mean that only the very rich can pay the necessary price while the rest starve. Steady productivity gains do not buy you much time mathematically either, and are in any case mostly offset quickly by the Jevons effect: the cheaper the product, the more you use.\n\nComment on Krugman’s growthism by Herman Daly:\nhttps://steadystate.org/krugmans-growthism/"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#economy-and-energy",
+    "href": "events/ystad2025/menti.html#economy-and-energy",
+    "title": "Mentimeter session",
+    "section": "Economy and energy",
+    "text": "Economy and energy\n\n\n\n\n\n\nWorld economic growth for the previous century, expressed in constant 1990 dollars. For the first half of the century, the economy tracked the 2.9% energy growth rate very well, but has since increased to a 5% growth rate, outstripping the energy growth rate.\n\n\nMurphy 2011"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#decoupling-the-economy",
+    "href": "events/ystad2025/menti.html#decoupling-the-economy",
+    "title": "Mentimeter session",
+    "section": "Decoupling the economy",
+    "text": "Decoupling the economy\n\nDen ofta framförda tanken att användningen av energi och specifikt fossila bränslen måste växa (eller krympa) i samma takt som konsumtion och produktion är helt enkelt felaktig.\n\n\nJohn Hassler, Hassler, Regeringskansliet, 2023, p. 22\n\n\n\n\n\n\n\n\n\n\n\nModel scenarios for economic growth in the face of stalled or steady physical resources.\n\n\nMurphy Nature Physics, 18(8), 844–847, 2022\n\n\n\n\na,b, Model scenarios for economic growth in the face of stalled or steady physical resources. In both panels, the blue line is the scale of physical activities, which reaches a saturation point due to physical constraints. The red curves represent the total economy. If demanding continued economic growth, as in panel a, a growing gap must open so that the fraction of economic activity in the non-physical sector (purple line; right-hand axis) approaches 100%. Panel b depicts a more realistic trajectory. In this case, the non-physical elements of the economy are constrained (arbitrarily) to grow no higher than 75% of the total, resulting in only a modest amount of decoupled economic growth before flattening."
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#on-infinite-growth",
+    "href": "events/ystad2025/menti.html#on-infinite-growth",
+    "title": "Mentimeter session",
+    "section": "On infinite growth",
+    "text": "On infinite growth\n\n\n\n\n\n\n\n\n\n\n\n\nAnyone who believes exponential growth can go on forever in a finite world is either a madman or an economist.\n\n\nKenneth Boulding, in United States. Congress. House, 1973, p. 248\n\n\n\n\n\n\n[…] pre-Industrial era up to Point A, humankind migrated around the planet accessing solar flows […] dawn of the industrial revolution, Point B, humanity added the condensed stocks of hydrocarbons […] Between B and C we hit an energy crisis in the 1970s, which we ‘solved’ by both 1) using debt to pull consumption forward in time and 2) globalization and outsourcing to the cheapest areas of production […] Since 2007 we have grown our global debt 3.5x faster than we’ve grown our economies bringing global debt/GDP ratio to over 300% […]\n\n\nHagens Ecological Economics, 169, 106520, 2020\n\n\n\n\n\nIn the pre-Industrial era up to Point A, humankind migrated around the planet accessing solar flows using relatively simple technology such as agriculture, sails, slaves and animal labor. At the dawn of the industrial revolution, Point B, humanity added the condensed stocks of hydrocarbons to previously flow-based human economies. A valid description of the Solow residual (i.e. the economic growth not explained by labor or capital) was absent during this time because the black line and red line were tracking together.\nBetween B and C we hit an energy crisis in the 1970s, which we ‘solved’ by both 1) using debt to pull consumption forward in time and 2) globalization and outsourcing to the cheapest areas of production. These changes allowed economic growth to continue until it hit a wall with conventional finance in 2008 (Point C)– at which point central banks and global governments were forced to essentially redesign the entire financial system. This new (ongoing) paradigm involved measures such as too-big-to-fail guarantees, artificially low interest rates (even negative!) (Salmon, 2019), quantitative easing, central bank balance sheet expansion and various GDP-friendly rule changes (Alderman, 2014). The continued increase in global credit allowed: access to costlier tranches of resources, more social programs, cheap financing for renewable energy, and a sustained – if tepid – return to economic growth since 2009. We are now heading towards Point D, where our global monetary representations of reality continue to decouple from the underlying biophysical reality (red curve).\nSince 2007 we have grown our global debt 3.5x faster than we’ve grown our economies bringing global debt/GDP ratio to over 300% (Tiftik et al., 2019). Most institutional experts and pundits are aware of Point D, but because of cultural energy blindness, are generally not aware of this point in relation to the red line, or even that there is a red line. Eventually we will discover that the black line (money and credit) also has limits, which ultimately are tethered to the growth enabled by energy and resource availability and cost."
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#technology-narratives",
+    "href": "events/ystad2025/menti.html#technology-narratives",
+    "title": "Mentimeter session",
+    "section": "Technology narratives",
+    "text": "Technology narratives\n\n\n\n\n\n\n\n\nFör jorden har i alla fall en obegränsad resurs: den mänskliga kreativiteten. Varför skulle inte en växande och alltmer välutbildad befolkning – som dessutom har hjälp av AI – kunna använda begränsade råvaror exempelvis en procent smartare varje år?\n\n\n“Elias Rosell” DN.se, 2024\n\n\n\n\n\n\n\n\nAlternativ finns ju som tur är. Med ”smartare miljöteknik, mer energieffektiva metoder och smartare sätt att transportera oss” kan vi få ökat välstånd utan ökade utsläpp […]\n\n\n“Max Hjelm” DN.se, 2024"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#tech-menti",
+    "href": "events/ystad2025/menti.html#tech-menti",
+    "title": "Mentimeter session",
+    "section": "Tech menti",
+    "text": "Tech menti\n\n\n\n\n\n\n\n\nare there limits to technological progress?\nis technological progress rate increasing or declining?\nTom Murphy’s example of time travel 1870-&gt;1950 vs 1950-&gt; today, who sees most transformative progress\n\nSegue:\nso if getting more energy is difficult and we are so coupled to energy/materia is a potential route efficiency?\nGoal:\n\ndiscuss limits of technology (often from a thermodynamic lens)\nobjection: what if you limit\n\nResources:\n\nDN ledare about using AI to improve material use 1% per year\n\nGraphs:\n\nfrom Marc Andreesen tech-optimism to more gloomy prediction; fill in betweens\nour world in data graph on tech dev\nTom Murphy’s graph of light and S-curve of tech development\nS-curve of the ensembl of technologies; we have in fact picked the low hanging fruit; could it be the slowdown in progress is because of this (here, point to articles in Nature, Ulf Danielsson, hell even Peter Thiel, on the slowdown of discoveries); also point out that the rate must be normalized by population size and GDP spent on research"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#the-techno-optimism-scale",
+    "href": "events/ystad2025/menti.html#the-techno-optimism-scale",
+    "title": "Mentimeter session",
+    "section": "The techno-optimism scale",
+    "text": "The techno-optimism scale\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe techno-optimist manifesto Andreessen Andreessen Horowitz, 2023\n\n\nOur Ugly Magnificence Murphy 2023\n\n\n\nRay Kurzweil: “We are going to to expand intelligence by a millionfold by 2045” Corbyn The Observer, 2024\n\n\nWhy the Singularity Cannot Happen Modis Singularity Hypotheses: A Scientific and Philosophical Assessment, 311–346, 2012\n\n\n\n\n\nLimits to growth Meadows & Club of Rome 1972\n\n\nTechnology over the Long Run Roser Our World in Data, 2023\nMore from Less McAfee 2019\n\nAuke Hoekstra\n\nMichael Liebreich\n\nMarc Jacobsen\n\nCarey W King\n\nTimothy Garrett\nA Possible Declining Trend for Worldwide Innovation Huebner Technological Forecasting and Social Change, 72(8), 980–986, 2005\nTim Lenton Trust et al. 2025\n\n\n\n\nShow graph from Marc Andreesen to Tom Murphy, with the intent to show the wide range of opinions from clever people\n\nAndreesen\nMusk on Mars\nKurzweil on AGI\nOWID article by Max Roser\nMcAfee\nHoekstra, Liebreich, Jacobson\nLimits to Growth\nCarey W King\nTim Garrett (not really about tech though)\nTheodore Modis (there will never be an AGI)\nRutherford on Mars?\nHuebner, Tad Patzek\nTom Murphy on modernity, response to Andreesen\n\nPhoto attributions:\nBy Terzopoulou - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=94774361"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#how-to-make-a-soda-can",
+    "href": "events/ystad2025/menti.html#how-to-make-a-soda-can",
+    "title": "Mentimeter session",
+    "section": "How to make a soda can",
+    "text": "How to make a soda can\n\n\n\n\n\n\n\n\n\n\n\n\nMcAfee 2019, “Andrew McAfee on More from Less” Econlib, n.d.\n\n\nFour horsemen of the optimist:\n\ntechnological progress\ncapitalism\npublic awareness\nresponsive government\n\n\nMissing observation:\n\nlimit to efficiency\naggregate material use the interesting quantity\n\n\n\n\nFor balance:\n\nhttps://www.forbes.com/sites/cognitiveworld/2019/12/04/review-of-more-from-less-by-andrew-mcafee/\n\nFor more negative review of McAfee I may be thinking of Carey King’s treatment in the economic superorganism\nBook review: https://www.goodreads.com/review/show/3113843293\nFail to point out two things:\n\nefficiency limits -&gt; S-curves\naggregate that counts -&gt; rebound effect (halved fuel consumtion does not lead to halved emissions) -&gt; the intent is crucial to understanding efficiency, often implicit assumption is growth"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#exponential-menti",
+    "href": "events/ystad2025/menti.html#exponential-menti",
+    "title": "Mentimeter session",
+    "section": "Exponential menti",
+    "text": "Exponential menti"
+  },
+  {
+    "objectID": "events/ystad2025/menti.html#cumulative-growth",
+    "href": "events/ystad2025/menti.html#cumulative-growth",
+    "title": "Mentimeter session",
+    "section": "Cumulative growth",
+    "text": "Cumulative growth\n\n\n\n\n\n\n\n\nEvery doubling consumes as much resources as the entire previous history!\n\n\nRule of 70\n\nGiven a growth rate \\(r\\) (annual, generational, …) in percent, the doubling time is roughly equivalent to \\(70 / r\\).\n\n\nSo an annual growth rate of 1% means 70 doubling time, 2% 35 years, etc.\nA 2.1% growth rate has a doubling time of 30 years, or 3.3 per century -&gt; a factor 10!"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nState of the Earth research\n\n\nA plenary discussion about the state of the planet\n\n\n \n\n\n\n\n\n\nMentimeter session\n\n\n \n\n\n \n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html#ystad-march-2025",
+    "href": "events.html#ystad-march-2025",
+    "title": "Events",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nState of the Earth research\n\n\nA plenary discussion about the state of the planet\n\n\n \n\n\n\n\n\n\nMentimeter session\n\n\n \n\n\n \n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Systems thinking",
+    "section": "",
+    "text": "Systems thinking about planetary boundaries, energy, biodiversity and topics related to life sciences."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Systems thinking about planetary boundaries, energy, biodiversity and topics related to life sciences."
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#about",
+    "href": "events/ystad2025/intro.html#about",
+    "title": "State of the Earth research",
+    "section": "About",
+    "text": "About\nInitiative\n\n\n\n\nRichardson et al. Science Advances, 9(37), eadh2458, 2023\n\n\nStart a regularly occurring activity at the NBIS retreats where we together increase our awareness of the pressures on the environment caused by human societies."
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#about-1",
+    "href": "events/ystad2025/intro.html#about-1",
+    "title": "State of the Earth research",
+    "section": "About",
+    "text": "About\nMotivation #1: We are already spending time on this\n\n\n\n\nRichardson et al. Science Advances, 9(37), eadh2458, 2023\n\n\nIntersection with NBIS support:\n\nClimate (biodiversity patterns, resilience, evolution)\nBiosphere integrity (biodiversity loss, genetic diversity)\nNovel entities (chemical exposure & human health)\nLand system change (forest communities, carbon sequestration)\netc"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#about-2",
+    "href": "events/ystad2025/intro.html#about-2",
+    "title": "State of the Earth research",
+    "section": "About",
+    "text": "About\nMotivation #2: Public outreach\n\n\n\n\n\n\nPhoto by Kenny Eliason on Unsplash\n\n\n\n\nThe importance of scientific communication to build public trust, maximize societal impact, foster informed decision-making and promote evidence-based policies is highlighted in the strategies of Swedish universities, VR, NBIS and SciLifeLab."
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#about-3",
+    "href": "events/ystad2025/intro.html#about-3",
+    "title": "State of the Earth research",
+    "section": "About",
+    "text": "About\nMotivation #3: Confidence\n\n\n\n\n“VA Barometer 2024/2025 in English” Vetenskapallmanhet.se, 2025\n\n\nThe public has high confidence in research"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#about-4",
+    "href": "events/ystad2025/intro.html#about-4",
+    "title": "State of the Earth research",
+    "section": "About",
+    "text": "About\nMotivation #3: Confidence\n\n\n\n\n“VA Barometer 2024/2025 in English” Vetenskapallmanhet.se, 2025\n\n\nThe public has high confidence in research…and believe our opinions contribute to better policymaking.\n\nA majority (66 percent) believe that researchers should express their opinions on political issues related to their research … Over half of those who support researchers sharing their opinions believe that it contributes to better policymaking."
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#session-format",
+    "href": "events/ystad2025/intro.html#session-format",
+    "title": "State of the Earth research",
+    "section": "Session format",
+    "text": "Session format\nFriendly discussions of a topic of interest.\n\nWhat’s the scope of the problem?\nWhat do we know from the current science, and what do we see in our support projects that are relevant to the problem?\nWhat would it take to alleviate the impacts/come to terms with the issue?\n\nCode of conduct\nThese are very complex wide-boundary problems and topics.\n\nno one has all the answers\nwe can learn from each other\nagree to disagree and be kind to those who hold different opinions\n\nLayout\n\nMentimeter questions on some topic to gauge what people think\nA couple of slides with facts that aim to further the discussion\n\n\nWide-boundary problem: implies a problem where reductionist thinking falls short and instead a systems approach is needed for understanding\nFor future session: as we may come across as pessimistic, could be an opportunity for someone with a more optimistic outlook to present a different perspective"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#planetary-boundaries---how-its-going",
+    "href": "events/ystad2025/intro.html#planetary-boundaries---how-its-going",
+    "title": "State of the Earth research",
+    "section": "Planetary boundaries - how it’s going",
+    "text": "Planetary boundaries - how it’s going\n\n\n\n\nRichardson et al. Science Advances, 9(37), eadh2458, 2023  Planetary Boundaries 2012\n\n\nHow it’s going…\nSegue from LtG: Johan Rockström claims Dennis Meadows is his hero (podcast on LtG, _TippingPointPodcast_2023)\nNote: climate change is but one of the tipping points; it is not the main issue to tackle, but rather a symptom of something else, namely ecological overshoot"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#transgressing-the-boundaries",
+    "href": "events/ystad2025/intro.html#transgressing-the-boundaries",
+    "title": "State of the Earth research",
+    "section": "Transgressing the boundaries",
+    "text": "Transgressing the boundaries\n\n\n\n\n\n\nToday, human activities with planetary-scale effects act as additional forcing on Earth system. Richardson et al. Science Advances, 9(37), eadh2458, 2023\n\n\nThe remarkable explosion of the human enterprise from the mid-20th century, and the associated global-scale impacts on many aspects of Earth System functioning, mark the second stage of the Anthropocene - the Great Acceleration. Steffen et al. Ambio-Journal of Human Environment Research and Management, 36(8), 614–621, 2007"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#the-great-acceleration",
+    "href": "events/ystad2025/intro.html#the-great-acceleration",
+    "title": "State of the Earth research",
+    "section": "The Great Acceleration",
+    "text": "The Great Acceleration\n\n\n\n\n\n\n\n\n\n\n\n\nSteffen et al. The Anthropocene Review, 2(1), 81–98, 2015\n\n\n\n\nGross Domestic Product - an indicator of human activity\n\n\n\n\n\n\n\nHasell et al. Our World in Data, 2022\n\n\n\n\n\n\n\n\nRitchie et al. Our World in Data, 2023\n\n\n\nGrowth in human activity has resulted in huge improvements in living standards, but has also had severe negative effects.\nQuestion: Where are we heading?\n\n\n\n\nsee source tables at https://journals-sagepub-com.ezproxy.its.uu.se/doi/10.1177/2053019614564785\nHumanity has achieved great things - be sure to point out the positive -&gt; segue to the price we pay, that this may be a short-lived Faustian bargain\n\ntremendous growth since WWII\n\nOn criticism of OWID, see ref donald_ItsNotScience_2023"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#perspective-co2",
+    "href": "events/ystad2025/intro.html#perspective-co2",
+    "title": "State of the Earth research",
+    "section": "Perspective: CO2",
+    "text": "Perspective: CO2\n\n\n\n\n\n\n\nMonroe The Keeling Curve, n.d.\n\n\nFun (?) fact: we are currently emitting CO2 at a rate that is estimated to be 10-50 times higher than that which caused the mother of all extinctions, the Permian mass extinction 252 MYA\n\nWu et al. Nature Communications, 12(1), 2137, 2021, Cui et al. Palaeogeography, Palaeoclimatology, Palaeoecology, 389, 128–136, 2013\n\n\n\nKeeling curve: point out before 800k time series that CO2 levels have been remarkably stable during the Anthropocene, since the beginning of civilization, to the point that it is believed (whom?) this was a necessary condition for civilization to flourish in the first place\nOn the rate of CO2 emission: an issue seldom discussed in media is that although the assumption is humans will adapt to new climates due to technology and inherent adaptability, very little is said about wildlife. The changes may in fact be so rapid that there is not enough time for natural populations to adapt.\nQuote from Cui et al, conclusions:\n\nBased on simulations using cGENIE, our estimate of the peak rate of carbon release during the end-Permian event ranges from 0.42 to 1.52 Gt C yr− 1, which is comparable to that estimated during the PETM, but significantly smaller than the fossil fuel burning rate today (9 Gt C yr− 1)."
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#perspective-biodiversity",
+    "href": "events/ystad2025/intro.html#perspective-biodiversity",
+    "title": "State of the Earth research",
+    "section": "Perspective: Biodiversity",
+    "text": "Perspective: Biodiversity\n\n\n\n\nGreenspoon et al. Proceedings of the National Academy of Sciences, 120(10), e2204892120, 2023\n\n\n\n\n\nMurphy, Tom 2023"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#perspective-novel-entities",
+    "href": "events/ystad2025/intro.html#perspective-novel-entities",
+    "title": "State of the Earth research",
+    "section": "Perspective: Novel entities",
+    "text": "Perspective: Novel entities\n\n\nMurphy, Tom 2022"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#perspective-human-health",
+    "href": "events/ystad2025/intro.html#perspective-human-health",
+    "title": "State of the Earth research",
+    "section": "Perspective: Human health",
+    "text": "Perspective: Human health\n\n\nLevine et al. Human Reproduction Update, 29(2), 157–176, 2023"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#what-is-our-role-science-and-neutrality",
+    "href": "events/ystad2025/intro.html#what-is-our-role-science-and-neutrality",
+    "title": "State of the Earth research",
+    "section": "What is our role? Science and neutrality",
+    "text": "What is our role? Science and neutrality\nRemain neutral?\n\n\nI am foremost concerned by an increasing number of climate scientists becoming climate activists, because scholars should not have a priori interests in the outcome of their studies\n\n\nBüntgen, U. (2024). The importance of distinguishing climate science from climate activism. Büntgen, Npj Climate Action, 3(1), 1–2, 2024\n\n\n\nOr engage actively?\n\n\n… motivations for engaging in research, advocating for funding, being interested in achieving a successful outcome (including rejoicing when the experiment actually works), and wanting to contribute to scientific knowledge are all forms of having ‘interests in the outcome of studies.’ What scientist undertakes research where they have no interest whatsoever in the outcome?\n\n\nvan Eck, C. W., Messling, L., & Hayhoe, K. (2024). Challenging the neutrality myth in climate science and activism. van Eck et al., Npj Climate Action, 3(1), 1–3, 2024"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#what-is-our-role-science-and-neutrality-1",
+    "href": "events/ystad2025/intro.html#what-is-our-role-science-and-neutrality-1",
+    "title": "State of the Earth research",
+    "section": "What is our role? Science and neutrality",
+    "text": "What is our role? Science and neutrality\n\n\n\n\n\n\nShout out to all the fuckwits who told me, two months ago, that scientists must strive to remain apolitical.\n\n— Carl T. Bergstrom (carlbergstrom.com?) February 1, 2025 at 6:14 AM\n\n\n\n\n\n\nTrump 2.0: An Assault on Science Anywhere Is an Assault on Science Everywhere “Trump 2.0,” Nature, 2025\n\nUS President Donald Trump is taking a wrecking ball to science and to international institutions. The global research community must take a stand against these attacks.\n\n\n\n\n\n\n\n\n\n\n\nVarför tar forskare inte större plats i samhällsdebatten? 2025\n\n\n\n\n\n\n\n\nWyatt et al. Royal Society Open Science, 11(7), 240411, 2024\n\n\n\nMy emphasis. Neutrality is tricky to navigate and science must remain apolitical. Message: we must be willing to engage more in the public debate and not leave it to economists and social scientists who are probably more interested a priori (!)"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#summary",
+    "href": "events/ystad2025/intro.html#summary",
+    "title": "State of the Earth research",
+    "section": "Summary",
+    "text": "Summary\nTopic ideas\n\n\n\n\nThe examples we present are a subset from a wide variety of topics where we should aim to keep up to date or need at least a cursory knowledge\n\nBiodiversity loss\nChemical pollutants and human health\nEnergy use and renewables\nLand use/deforestation and eutrophication\nExponential-growth on a finite planet\nTechnical innovation and progress\nClimate change and life on a hotter planet\netc."
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#summary-1",
+    "href": "events/ystad2025/intro.html#summary-1",
+    "title": "State of the Earth research",
+    "section": "Summary",
+    "text": "Summary\nHow is this relevant for NBIS?\n\nProfessional development/Keeping ahead of the curve\n\nThese things affect all our fields\nSystems thinking and interdisciplinary studies will become more and more important\n\n\n\n\nMolecular and predictive understanding of living systems will allow to address health and environmental changes\n\nIntegrated Data Services presentation, NBIS Retreat March 2025\n\n\nOutreach\n\nWe need to know what to communicate, and how\nWe, in our role as experts, need to know what we know before reaching out\n\n\n\nTitle slide image source from Stockholm Resilience Center: https://www.stockholmresilience.org/research/planetary-boundaries.html"
+  },
+  {
+    "objectID": "events/ystad2025/intro.html#bibliography",
+    "href": "events/ystad2025/intro.html#bibliography",
+    "title": "State of the Earth research",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n\n\n\nBüntgen, U. (2024). The importance of distinguishing climate science from climate activism. Npj Climate Action, 3(1), 1–2. https://doi.org/10.1038/s44168-024-00126-0\n\n\nCui, Y., Kump, L. R., & Ridgwell, A. (2013). Initial assessment of the carbon emission rate and climatic consequences during the end-Permian mass extinction. Palaeogeography, Palaeoclimatology, Palaeoecology, 389, 128–136. https://doi.org/10.1016/j.palaeo.2013.09.001\n\n\nGreenspoon, L., Krieger, E., Sender, R., Rosenberg, Y., Bar-On, Y. M., Moran, U., Antman, T., Meiri, S., Roll, U., Noor, E., & Milo, R. (2023). The global biomass of wild mammals. Proceedings of the National Academy of Sciences, 120(10), e2204892120. https://doi.org/10.1073/pnas.2204892120\n\n\nHasell, J., Roser, M., Ortiz-Ospina, E., & Arriagada, P. (2022). Poverty. Our World in Data.\n\n\nLevine, H., Jørgensen, N., Martino-Andrade, A., Mendiola, J., Weksler-Derri, D., Jolles, M., Pinotti, R., & Swan, S. H. (2023). Temporal trends in sperm count: A systematic review and meta-regression analysis of samples collected globally in the 20th and 21st centuries. Human Reproduction Update, 29(2), 157–176. https://doi.org/10.1093/humupd/dmac035\n\n\nMonroe, R. (n.d.). The Keeling Curve. In The Keeling Curve. Retrieved February 13, 2025, from https://keelingcurve.ucsd.edu\n\n\nMurphy, Tom. (2022). Death by Hockey Sticks  Do the Math. https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/\n\n\nMurphy, Tom. (2023). Ecological Cliff Edge  Do the Math. https://dothemath.ucsd.edu/2023/08/ecological-cliff-edge/\n\n\nPlanetary boundaries. (2012). [Text]. https://www.stockholmresilience.org/research/planetary-boundaries.html\n\n\nRichardson, K., Steffen, W., Lucht, W., Bendtsen, J., Cornell, S. E., Donges, J. F., Drüke, M., Fetzer, I., Bala, G., von Bloh, W., Feulner, G., Fiedler, S., Gerten, D., Gleeson, T., Hofmann, M., Huiskamp, W., Kummu, M., Mohan, C., Nogués-Bravo, D., … Rockström, J. (2023). Earth beyond six of nine planetary boundaries. Science Advances, 9(37), eadh2458. https://doi.org/10.1126/sciadv.adh2458\n\n\nRitchie, H., Rosado, P., & Roser, M. (2023). Agricultural production. Our World in Data.\n\n\nSteffen, W., Broadgate, W., Deutsch, L., Gaffney, O., & Ludwig, C. (2015). The trajectory of the Anthropocene: The Great Acceleration. The Anthropocene Review, 2(1), 81–98. https://doi.org/10.1177/2053019614564785\n\n\nSteffen, W., Crutzen, P. J., McNeill, J. R., et al. (2007). The anthropocene: Are humans now overwhelming the great forces of nature. Ambio-Journal of Human Environment Research and Management, 36(8), 614–621.\n\n\nTrump 2.0: An assault on science anywhere is an assault on science everywhere. (2025). Nature. https://doi.org/10.1038/d41586-025-00562-w\n\n\nVA barometer 2024/2025 in english. (2025). In vetenskapallmanhet.se. {https://vetenskapallmanhet.se/2025/01/va-barometer-2024-2025-in-english/}\n\n\nvan Eck, C. W., Messling, L., & Hayhoe, K. (2024). Challenging the neutrality myth in climate science and activism. Npj Climate Action, 3(1), 1–3. https://doi.org/10.1038/s44168-024-00171-9\n\n\nVarför tar forskare inte större plats i samhällsdebatten?  Tidningen Curie. (2025). [{Text}]. https://www.tidningencurie.se/kronikor/varfor-tar-forskare-inte-storre-plats-i-samhallsdebatten\n\n\nWu, Y., Chu, D., Tong, J., Song, H., Dal Corso, J., Wignall, P. B., Song, H., Du, Y., & Cui, Y. (2021). Six-fold increase of atmospheric pCO2 during the Permian–Triassic mass extinction. Nature Communications, 12(1), 2137. https://doi.org/10.1038/s41467-021-22298-7\n\n\nWyatt, T. D., Gardner, C. J., & Thierry, A. (2024). Actions speak louder than words: The case for responsible scientific activism in an era of planetary emergency. Royal Society Open Science, 11(7), 240411. https://doi.org/10.1098/rsos.240411"
+  }
+]
