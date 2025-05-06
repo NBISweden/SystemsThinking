@@ -21,15 +21,15 @@ jobs:
           cache: true
           activate-environment: true
 
+      - name: Install TeXLive
+        run: |
+          sudo apt-get update
+          sudo apt-get install texlive texlive-latex-extra
+          sudo apt-get install dvisvgm
+   
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          tinytex: true
 
-      - name: Install dvisvgm
-        run: |
-          sudo apt-get install dvisvgm
-  
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
