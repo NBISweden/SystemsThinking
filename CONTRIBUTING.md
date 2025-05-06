@@ -13,16 +13,6 @@ prerequisites:
 - pixi
 - R packages listed in `pixi.toml` (install with `pixi update`)
 
-## Quarto extensions
-
-You also need to install the Quarto extensions `fontawesome` and
-`nbis-course-quarto`:
-
-```
-quarto add quarto-ext/fontawesome
-quarto add percyfal/nbis-course-quarto
-```
-
 ## Linting
 
 The manifest contains a task called `lint` which will run code
